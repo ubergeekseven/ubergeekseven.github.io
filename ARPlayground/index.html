@@ -15,13 +15,13 @@
         <a-assets>
             <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/ubergeekseven/ubergeekseven.github.io/master/ARPlayground/Assets/models/CesiumMan1.gltf"></a-asset-item>
             <a-asset-item id="animated-asset-2" src="https://raw.githubusercontent.com/ubergeekseven/ubergeekseven.github.io/master/ARPlayground/Assets/models/scene.gltf"></a-asset-item>
+            <video id="Agua-natural" autoplay loop="true" src="https://raw.githubusercontent.com/ubergeekseven/ubergeekseven.github.io/master/ARPlayground/Assets/Mp4/Agua-natural.mp4"> </video>
         </a-assets>
 
         <a-marker id="animated-marker-2" type='barcode' value='7'>
-          <a-entity
-          gltf-model="#animated-asset-2"
-          scale="2">
-      </a-entity>
+          <a-video 
+            src="#Agua-natural" width="16" height="9" position="0 0 -20">
+          </a-video>
         </a-marker>
 
         <a-marker id="animated-marker" type='barcode' value='6'>
