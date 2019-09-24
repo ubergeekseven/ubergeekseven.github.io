@@ -14,16 +14,20 @@
 
         <a-assets>
             <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/ubergeekseven/ubergeekseven.github.io/master/ARPlayground/Assets/models/CesiumMan1.gltf"></a-asset-item>
+            <a-asset-item id="animated-asset-2" src="https://raw.githubusercontent.com/ubergeekseven/ubergeekseven.github.io/master/ARPlayground/Assets/models/animated.gltf"></a-asset-item>
         </a-assets>
 
-        <a-marker type='barcode' value='7'>
-            <a-box position='0 0.5 0' color="yellow"></a-box>
+        <a-marker id="animated-marker-2" type='barcode' value='7'>
+          <a-entity
+          gltf-model="#animated-asset-2"
+          scale="2">
+      </a-entity>
         </a-marker>
 
         <a-marker id="animated-marker" type='barcode' value='6'>
             <a-entity
                 gltf-model="#animated-asset"
-                scale="20">
+                scale="2">
             </a-entity>
         </a-marker>
 
