@@ -10,7 +10,6 @@
 
     <body style='margin : 0px; overflow: hidden;'>
 
-        <button id="play-button">Play</button>
 
         <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
@@ -24,7 +23,7 @@
         <a-marker id="animated-marker-2" type='barcode' value='7'>
           <a-video 
             src="#vid"
-            autoplay="false"
+            autoplay="true"
             loop="true"
             smooth="true" smoothCount="30" smoothTolerance="0.01" smoothThreshold="15"
             scale="1"
