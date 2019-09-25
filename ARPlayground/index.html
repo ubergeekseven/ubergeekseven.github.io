@@ -9,6 +9,9 @@
     <script src="./aframe-extras/dist/aframe-extras.loaders.min.js"></script>
 
     <body style='margin : 0px; overflow: hidden;'>
+
+        <button id="play-button">Play</button>
+        
         <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 
@@ -21,10 +24,13 @@
         <a-marker id="animated-marker-2" type='barcode' value='7'>
           <a-video id='vid'
             src="#vid"
+            autoplay="false"
+            loop="true"
             smooth="true" smoothCount="30" smoothTolerance="0.01" smoothThreshold="15"
             scale="1"
             rotation="-90 -0 0"
             width="2.66" height="1.5" position="0 0 0"
+            style="display: none"></video>
             >
           </a-video>
         </a-marker>
@@ -37,12 +43,8 @@
         </a-marker>
 
         <a-entity camera></a-entity>
+
         </a-scene>
-        <script>
-            window.addEventListener('click', function () {
-              var v = document.querySelector('#vid');
-              v.play();
-            });
-            </script>
+
     </body>
 </html>
