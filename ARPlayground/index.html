@@ -18,7 +18,7 @@
         </a-assets>
 
         <a-marker id="animated-marker-2" type='barcode' value='7'>
-          <a-video 
+          <a-video id='vid'
             src="./Assets/Mp4/Agua-natural.mp4" 
             smooth="true" smoothCount="30" smoothTolerance="0.01" smoothThreshold="15"
             scale="1"
@@ -37,5 +37,11 @@
 
         <a-entity camera></a-entity>
         </a-scene>
+        <script>
+            window.addEventListener('click', function () {
+              var v = document.querySelector('#vid');
+              v.play();
+            });
+            </script>
     </body>
 </html>
