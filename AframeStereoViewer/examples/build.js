@@ -17,7 +17,7 @@
             eye: { type: 'string', default: "left"},
             mode: { type: 'string', default: "full"},
             split: { type: 'string', default: "horizontal"},
-            playOnClick: { type: 'boolean', default: false },
+            playOnClick: { type: 'boolean', default: true },
           },
            init: function(){
     
