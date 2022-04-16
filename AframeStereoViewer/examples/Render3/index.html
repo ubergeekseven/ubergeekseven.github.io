@@ -66,6 +66,9 @@
 
         <img id="hotspot" src="Hotspot.png"/>
       </a-assets>
+
+      
+      
       <a-entity id="spots" hotspots>
         <a-entity id="group-point1">
           <a-image spot="linkto:#Left2;spotgroup:group-point2" position="-4 0 10"></a-image>
@@ -88,6 +91,7 @@
       <!-- Sky sphere -->
       <a-sky id="sky1" src="#left" stereo="eye:left"></a-sky>
       <a-sky id="sky2" src="#right" stereo="eye:right"></a-sky>
+      <a-entity laser-controls="hand: right"></a-entity>
 
       <!-- or alternatively -->
 
