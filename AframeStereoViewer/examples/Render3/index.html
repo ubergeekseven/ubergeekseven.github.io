@@ -37,8 +37,10 @@
           
           this.el.addEventListener('click',function(){
             //set the skybox source to the new image as per the spot
-            var sky=document.getElementById("sky1");
-            sky.setAttribute("src",data.linkto);
+            var sky1=document.getElementById("sky1");
+            var sky2=document.getElementById("sky2");
+            sky1.setAttribute("src1",data.linkto);
+            sky2.setAttribute("src2",data.linkto);
             
             var spotcomp=document.getElementById("spots");
             var currspots=this.parentElement.getAttribute("id");
@@ -89,8 +91,8 @@
       <a-entity camera look-controls position="0 0 0" stereocam="eye:left;"></a-entity>
 
       <!-- Sky sphere -->
-      <a-sky id="sky1" src="#left" stereo="eye:left"></a-sky>
-      <a-sky id="sky2" src="#right" stereo="eye:right"></a-sky>
+      <a-sky id="sky1" src="#src1" stereo="eye:left"></a-sky>
+      <a-sky id="sky2" src="#src2" stereo="eye:right"></a-sky>
       <a-entity laser-controls="hand: right"></a-entity>
 
       <!-- or alternatively -->
