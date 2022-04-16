@@ -88,13 +88,13 @@
         </a-entity>
        </a-entity>
       <!-- Camera -->
-      <a-entity camera look-controls position="0 0 0" stereocam="eye:src1"></a-entity>
+      <a-entity camera look-controls position="0 0 0" stereocam="eye:left"></a-entity>
 
       <!-- Sky sphere -->
    
       
-      <a-sky id="sky1" src="#left" stereo="eye:src1"></a-sky>
-      <a-sky id="sky2" src="#right" stereo="eye:src2"></a-sky>
+      <a-sky id="sky1" src="src1" stereo="eye:left"></a-sky>
+      <a-sky id="sky2" src="src2" stereo="eye:right"></a-sky>
       <a-entity laser-controls="hand: right"></a-entity>
 
       <!-- or alternatively -->
