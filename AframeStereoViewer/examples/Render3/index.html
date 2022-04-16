@@ -31,7 +31,7 @@
           //add image source of hotspot icon
           this.el.setAttribute("src","#hotspot");
           //make the icon look at the camera all the time
-          this.el.setAttribute("look-at","#cam");
+          this.el.setAttribute("look-at","#camera");
           
           var data=this.data;
           
@@ -95,13 +95,7 @@
       <!--<a-sky id="sky2" src="http://i.imgur.com/JUxTnzK.jpg" stereo="eye:right"></a-sky>-->
 
      
-        <a-entity cursor="fuse:true;fuseTimeout:2000"
-                  geometry="primitive:ring;radiusInner:0.01;radiusOuter:0.02"
-                  position="0 0 -1.8"
-                  material="shader:flat;color:#ff0000"
-                  animation__mouseenter="property:scale;to:3 3 3;startEvents:mouseenter;endEvents:mouseleave;dir:reverse;dur:2000;loop:1">
-        </a-entity>
-</a-entity>
+
     </a-scene>
 
   </body>
