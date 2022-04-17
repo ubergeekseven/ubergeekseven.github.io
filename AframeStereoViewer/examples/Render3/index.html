@@ -1,92 +1,65 @@
-
+<!DOCTYPE html>
 <html>
   <head>
-    <title>A-Frame Layer Component - Basic</title>
+    <meta charset="utf-8">
+    <title>360&deg; Image Gallery</title>
+    <meta name="description" content="360&deg; Image Gallery - A-Frame">
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
-    <script src="../build.js"></script> <!-- In future builds create fully custom one that always points to this file somehwere in the root-->
+    <script src="../build.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@5/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-layout-component@5.3.0/dist/aframe-layout-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-template-component@3.2.1/dist/aframe-template-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-proxy-event-component@2.1.0/dist/aframe-proxy-event-component.min.js"></script>
+    
+    <!-- Image link template to be reused. -->
+    <script id="link" type="text/html">
+      <a-entity class="link"
+        geometry="primitive: plane; height: 1; width: 1"
+        material="transparent:true; src: ${thumb}"
+        event-set__mouseenter="scale: 1.2 1.2 1"
+        event-set__mouseleave="scale: 1 1 1"
+        event-set__click="_target: #image-360; _delay: 300; material.src: ${src}"
+        proxy-event="event: click; to: #image-360; as: fade"
+        sound="on: click; src: #click-sound"></a-entity>
+    </script>
   </head>
   <body>
-    <script>
-      // Create boxes.
-      AFRAME.registerComponent('boxes', {
-        init: function () {
-          var box;
-          var columns = 20;
-          var el = this.el;
-          var i;
-          var j;
-          var rows = 15;
-
-          if (el.sceneEl.isMobile) {
-            columns = 10;
-            rows = 5;
-          };
-
-          for (x = columns / -2; x < columns / 2; x++) {
-            for (y = 0.5; y < rows; y++) {
-              box = document.createElement('a-entity');
-              box.setAttribute('mixin', 'box');
-              box.setAttribute('position', {x: x * .6, y: y * .6, z: 1.5});
-              el.appendChild(box);
-            }
-          }
-        }
-      });
-
-      AFRAME.registerComponent('shadow-if-mobile', {
-        init: function () {
-          if (!this.el.sceneEl.isMobile) {
-            this.el.setAttribute('light', {
-              castShadow: true,
-              shadowMapWidth: 2048,
-              shadowMapHeight: 1024
-            });
-          }
-        }
-      });
-    </script>
-    <a-scene renderer="antialias: true">
-      <!-- Paths to left and right images -->
+    <a-scene>
       <a-assets>
-        <img id="left" src="textures/KitchenLeft.jpg">
-        <img id="right" src="textures/KitchenRight.jpg">
+        <img id="Rendered1" src="textures/KitchenRight.jpg">
+        <img id="renderthumb"  src="Render.png">
+        <img id="realthumb"  src="Real.png">
+        <img id="View2thumb" src="View2.png">
+        <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
+        <img id="Real"  src="textures/KitchenRightReal.jpg">
+        <img id="View2" src="textures/KitchenWindowLeft.jpg">
+
       </a-assets>
 
-      <!-- Camera -->
-      <a-entity camera look-controls position="0 0 0" stereocam="eye:left;"></a-entity>
+      <!-- 360-degree image. -->
+      <a-sky id="image-360" radius="10" src="#Rendered1"
+             animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
+             animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade"></a-sky>
 
-      <a-entity id="leftHand" laser-controls="hand: left" raycaster="objects: [mixin='box']"></a-entity>
-      <a-entity id="rightHand" laser-controls="hand: right" raycaster="objects: [mixin='box']" line="color: #118A7E"></a-entity>
-      <a-light position="0 0.5 1" intensity="0.75"></a-light>
-      <a-entity position="0 -1.6 -10">
-      <a-mixin id="box" geometry="primitive: box" material="color: #FAFAFA" rotation="0 0 -35" scale="0.5 0.5 0.5" intersect-color-change shadow="cast: true; receive: false"></a-mixin>
-      <a-entity boxes></a-entity>
-      <a-circle rotation="-90 0 0" radius="20" color="#666" position="0 -0.1 0" shadow="receive: true" roughness="1"></a-circle>
-      <a-light type="point" position="0 10 -30" intensity="0.85" shadow-if-mobile></a-light>
-      <a-torus radius="20" arc="190" rotation="0 90 0" animation="property: rotation; to: 0 450 0; loop: true; dur: 16000; easing: linear"></a-torus>
-      <a-torus radius="20" arc="190" rotation="0 45 0" animation="property: rotation; to: 0 405 0; loop: true; dur: 16000; easing: linear"></a-torus>
-      <a-torus radius="20" arc="190" rotation="0 135 0" animation="property: rotation; to: 0 495 0; dir: reverse; loop: true; dur: 16000; easing: linear"></a-torus>
-      <a-torus radius="20" arc="360" rotation="-90 0 0"></a-torus>
+      <!-- Image links. -->
+      <a-entity id="links" layout="type: line; margin: 1.5" position="-7 -2.326 -6.18" rotation="-24.16 41.35 -0.34">
+        <a-entity template="src: #link" data-src="#Real" data-thumb="#realthumb"></a-entity>
+        <a-entity template="src: #link" data-src="#Rendered1" data-thumb="#renderthumb"></a-entity>
+        <a-entity template="src: #link" data-src="#View2" data-thumb="#View2thumb"></a-entity>
       </a-entity>
-      
+
+      <!-- Camera + cursor. -->
      
-      <!-- Sky sphere -->
-      <a-sky id="sky1" src="#left" stereo="eye:left"></a-sky>
-      <a-sky id="sky2" src="#right" stereo="eye:right"></a-sky>
-      
-      
-       
-
-      <!-- or alternatively -->
-
-      <!--<a-sky id="sky1" src="http://i.imgur.com/YAaxpv6.jpg" stereo="eye:left"></a-sky>-->
-      <!--<a-sky id="sky2" src="http://i.imgur.com/JUxTnzK.jpg" stereo="eye:right"></a-sky>-->
-
-
+      <a-entity camera look-controls position="0 0.7 0" >
+        <a-cursor
+          id="cursor"
+          animation__click="property: scale; startEvents: click; from: 0.1 0.1 0.1; to: 1 1 1; dur: 150"
+          animation__fusing="property: fusing; startEvents: fusing; from: 1 1 1; to: 0.1 0.1 0.1; dur: 1500"
+          event-set__mouseenter="_event: mouseenter; color: springgreen"
+          event-set__mouseleave="_event: mouseleave; color: black"
+          raycaster="objects: .link"></a-cursor>
+      </a-entity>
     </a-scene>
-
   </body>
 </html>
-
-
 
