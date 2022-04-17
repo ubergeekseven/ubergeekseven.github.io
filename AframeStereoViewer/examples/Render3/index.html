@@ -10,8 +10,8 @@
     <a-scene renderer="antialias: true">
       <!-- Paths to left and right images -->
       <a-assets>
-        <img id="left" src="textures/Kitchen2_L.jpg">
-        <img id="right" src="textures/Kitchen2_R.jpg">
+        <img id="left" src="textures/KitchenLeft.jpg">
+        <img id="right" src="textures/KitchenRight.jpg">
       </a-assets>
 
       <!-- Camera -->
@@ -20,6 +20,7 @@
       <!-- Sky sphere -->
       <a-sky id="sky1" src="#left" stereo="eye:left"></a-sky>
       <a-sky id="sky2" src="#right" stereo="eye:right"></a-sky>
+      <a-entity laser-controls="hand: right"></a-entity>
       
        
 
