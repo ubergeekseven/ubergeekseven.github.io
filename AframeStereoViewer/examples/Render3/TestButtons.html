@@ -26,14 +26,13 @@
   <body>
     <a-scene>
       <a-assets>
-        <img id="Rendered1" crossorigin="anonymous" src="textures/KitchenRight.jpg">
+        <img id="Rendered1" src="textures/KitchenRight.jpg">
         <img id="renderthumb"  src="Render.png">
         <img id="realthumb"  src="Real.png">
-        <img id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg">
+        <img id="View2thumb" src="View2.png">
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
-        <img id="Real" crossorigin="anonymous" src="textures/KitchenRightReal.jpg">
-        <img id="cubes1" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/cubes.jpg">
-        <img id="sechelt" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg">
+        <img id="Real"  src="textures/KitchenRightReal.jpg">
+        <img id="View2" src="textures/KitchenWindowLeft.jpg">
 
       </a-assets>
 
@@ -46,7 +45,7 @@
       <a-entity id="links" layout="type: line; margin: 1.5" position="0 -1 -4">
         <a-entity template="src: #link" data-src="#Real" data-thumb="#realthumb"></a-entity>
         <a-entity template="src: #link" data-src="#Rendered1" data-thumb="#renderthumb"></a-entity>
-        <a-entity template="src: #link" data-src="#sechelt" data-thumb="#sechelt-thumb"></a-entity>
+        <a-entity template="src: #link" data-src="#View2" data-thumb="#View2thumb"></a-entity>
       </a-entity>
 
       <!-- Camera + cursor. -->
