@@ -15,7 +15,7 @@
     <script id="link" type="text/html">
       <a-entity class="link"
         geometry="primitive: plane; height: 1; width: 1"
-        material="shader: flat; src: ${thumb}"
+        material="transparent:true; src: ${thumb}"
         event-set__mouseenter="scale: 1.2 1.2 1"
         event-set__mouseleave="scale: 1 1 1"
         event-set__click="_target: #image-360; _delay: 300; material.src: ${src}"
@@ -27,8 +27,8 @@
     <a-scene>
       <a-assets>
         <img id="Rendered1" crossorigin="anonymous" src="textures/KitchenRight.jpg">
-        <img id="renderthumb"  src="Render.png; transparent:true">
-        <img id="realthumb"  src="Real.png ; transparent:true">
+        <img id="renderthumb"  src="Render.png">
+        <img id="realthumb"  src="Real.png">
         <img id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg">
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
         <img id="Real" crossorigin="anonymous" src="textures/KitchenRightReal.jpg">
