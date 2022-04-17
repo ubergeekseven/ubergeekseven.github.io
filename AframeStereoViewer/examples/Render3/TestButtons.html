@@ -26,26 +26,26 @@
   <body>
     <a-scene>
       <a-assets>
-        <img id="city" crossorigin="anonymous" src="textures/KitchenLeft.jpg">
+        <img id="Rendered1" crossorigin="anonymous" src="textures/KitchenRight.jpg">
         <img id="city-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg">
         <img id="cubes-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg">
         <img id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg">
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
-        <img id="cubes" crossorigin="anonymous" src="textures/Kitchen2_L.jpg">
+        <img id="Real" crossorigin="anonymous" src="textures/KitchenRightReal.jpg">
         <img id="cubes1" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/cubes.jpg">
         <img id="sechelt" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg">
 
       </a-assets>
 
       <!-- 360-degree image. -->
-      <a-sky id="image-360" radius="10" src="#city"
+      <a-sky id="image-360" radius="10" src="#Rendered1"
              animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
              animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade"></a-sky>
 
       <!-- Image links. -->
       <a-entity id="links" layout="type: line; margin: 1.5" position="0 -1 -4">
-        <a-entity template="src: #link" data-src="#cubes" data-thumb="#cubes-thumb"></a-entity>
-        <a-entity template="src: #link" data-src="#city" data-thumb="#city-thumb"></a-entity>
+        <a-entity template="src: #link" data-src="#Real" data-thumb="#cubes-thumb"></a-entity>
+        <a-entity template="src: #link" data-src="#Rendered1" data-thumb="#city-thumb"></a-entity>
         <a-entity template="src: #link" data-src="#sechelt" data-thumb="#sechelt-thumb"></a-entity>
       </a-entity>
 
