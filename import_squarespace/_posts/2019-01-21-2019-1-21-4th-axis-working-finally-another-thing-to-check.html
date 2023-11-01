@@ -1,0 +1,149 @@
+---
+layout: post
+title: 4th Axis Working... Finally! Another thing to check
+categories: []
+tags:
+- CNCRouterparts
+- 4th
+- 4th axis
+- mach 3
+- mach 3 rotary
+- mach 3 rotary very slow
+- slow rotary
+- a axis rotates slow
+- vectric
+- fusion
+status: publish
+type: post
+published: true
+meta:
+  _thumbnail_id: '67'
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div class="sqs-html-content">
+  <p style="white-space: pre-wrap;">I have been messing with the 4th axis for half of the day today. I finally got the nerve to test it doing a simple toolpath to create a dowel of a certain diameter. When I ran it, the axis moved incredibly slow. Looking into this more in old mach 3 forums, I finally found a post that pointed to the right answer.</p>
+<p style="white-space: pre-wrap;">When exporting your toolpath, mach will see the feedrate as inches per minute. even though you set up the motor tuning and axis in the config, there is 1 more setting to get mach to output in degrees per correctly. Then, another setting to use in the .62 version that should be used with CNCROUTERPARTS machines. They recommend it, at least.</p>
+<p style="white-space: pre-wrap;">Open Config - - Toolpath</p>
+<p style="white-space: pre-wrap;">Make sure that “A-Rotations Enabled” and “Use Radius for Feedrate” are both checked.</p>
+<p style="white-space: pre-wrap;">In the settings dialog, enter 0.0001 as the rotation radius. Or enter your actual stock radius. Not sure if the bug was fixed, for this in the version I use. I have not checked if the actual radius produces the same result.</p>
+<p data-rte-preserve-empty="true" style="white-space: pre-wrap;"></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        " data-test="image-block-inline-outer-wrapper">
+
+      
+
+      
+        <figure class="
+              sqs-block-image-figure
+              intrinsic
+            " style="max-width:1166px;">
+          
+        
+        
+
+        
+          
+            
+          <div class="image-block-wrapper" data-animation-role="image">
+            <div class="sqs-image-shape-container-element
+              
+          
+        
+              has-aspect-ratio
+            " style="
+                position: relative;
+                
+                  padding-bottom:66.80960845947266%;
+                
+                overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);
+              ">
+                
+                  
+                  
+                  
+                  
+                  
+                  
+                  <img data-stretch="false" src="https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1548111529200-0AMLZ04CCIH6X9PVCMXP/RotarySettings.PNG" data-image="https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1548111529200-0AMLZ04CCIH6X9PVCMXP/RotarySettings.PNG" data-image-dimensions="1166x779" data-image-focal-point="0.5,0.5" alt="RotarySettings.PNG" data-load="false" width="1166" height="779" sizes="100vw" style="display:block;object-fit: cover; width: 100%; height: 100%; object-position: 50% 50%" srcset="https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1548111529200-0AMLZ04CCIH6X9PVCMXP/RotarySettings.PNG?format=100w 100w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1548111529200-0AMLZ04CCIH6X9PVCMXP/RotarySettings.PNG?format=300w 300w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1548111529200-0AMLZ04CCIH6X9PVCMXP/RotarySettings.PNG?format=500w 500w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1548111529200-0AMLZ04CCIH6X9PVCMXP/RotarySettings.PNG?format=750w 750w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1548111529200-0AMLZ04CCIH6X9PVCMXP/RotarySettings.PNG?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1548111529200-0AMLZ04CCIH6X9PVCMXP/RotarySettings.PNG?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1548111529200-0AMLZ04CCIH6X9PVCMXP/RotarySettings.PNG?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs">
+                
+            </div>
+          </div>
+        
+          
+        
+
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+
+
+<div class="sqs-html-content">
+  <p style="white-space: pre-wrap;">Now you should be able to run your rotary axis at an actual working pace. Such a clunky bit of software and the forums are getting dated and hard to search. Maybe this post will show and help someone in the same boat.</p>
+</div>
+</body></html>

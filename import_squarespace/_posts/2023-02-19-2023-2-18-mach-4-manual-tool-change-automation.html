@@ -1,0 +1,245 @@
+---
+layout: post
+title: Mach 4 Manual Tool Change - Automation
+categories:
+- CNC
+tags:
+- avidcnc
+- CNCRouterparts
+- CNCRP
+- CNC
+- mach4
+- mach 4
+status: publish
+type: post
+published: true
+meta:
+  _thumbnail_id: '83'
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        " data-test="image-block-inline-outer-wrapper">
+
+      
+
+      
+        <figure class="
+              sqs-block-image-figure
+              intrinsic
+            " style="max-width:1920px;">
+          
+        
+        
+
+        
+          
+            
+          <div class="image-block-wrapper" data-animation-role="image">
+            <div class="sqs-image-shape-container-element
+              
+          
+        
+              has-aspect-ratio
+            " style="
+                position: relative;
+                
+                  padding-bottom:56.25%;
+                
+                overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);
+              ">
+                
+                  
+                  
+                  
+                  
+                  
+                  
+                  <img data-stretch="false" src="https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1676807265878-DMXJAM9TGR4M6VM3TU42/Annotation+2023-02-18+093639.png" data-image="https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1676807265878-DMXJAM9TGR4M6VM3TU42/Annotation+2023-02-18+093639.png" data-image-dimensions="1920x1080" data-image-focal-point="0.5,0.5" alt="" data-load="false" width="1920" height="1080" sizes="100vw" style="display:block;object-fit: cover; width: 100%; height: 100%; object-position: 50% 50%" srcset="https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1676807265878-DMXJAM9TGR4M6VM3TU42/Annotation+2023-02-18+093639.png?format=100w 100w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1676807265878-DMXJAM9TGR4M6VM3TU42/Annotation+2023-02-18+093639.png?format=300w 300w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1676807265878-DMXJAM9TGR4M6VM3TU42/Annotation+2023-02-18+093639.png?format=500w 500w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1676807265878-DMXJAM9TGR4M6VM3TU42/Annotation+2023-02-18+093639.png?format=750w 750w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1676807265878-DMXJAM9TGR4M6VM3TU42/Annotation+2023-02-18+093639.png?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1676807265878-DMXJAM9TGR4M6VM3TU42/Annotation+2023-02-18+093639.png?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1676807265878-DMXJAM9TGR4M6VM3TU42/Annotation+2023-02-18+093639.png?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs">
+                
+            </div>
+          </div>
+        
+          
+        
+
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+
+
+<div class="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="medium" data-button-type="primary">
+  <a href="https://github.com/ubergeekseven/Mach4-ESS-Gathered" class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" target="_blank">
+    Mach 4 M6 Macro - Github
+  </a>
+</div>
+
+
+<div class="sqs-html-content">
+  <p class="" style="white-space:pre-wrap;">This setup will make tool changes with M6 much faster. It also allows you to run 1 file for an entire setup. This way, you can set up your material and not have to maintain a position that can allow a touch off later on. usually, if being good with material and not wasting it, you do not have a place to touch off the next tool that was the original location on the material. it is gone at some point in the job.</p>
+<p class="" style="white-space:pre-wrap;">This setup allows you to zero your first tool and then it moves to a fixed location to record the machine position once it probes another plate. This is stored as what the correct z height should be for this job at this location.</p>
+<p class="" style="white-space:pre-wrap;">Later on, when M6 is called, the tool goes to a tool change location. You change the tool and then the tool moves to the fixed plate and probes it. It measures that location and then sets the current location to the first measured z height. The newest probed position is now the one it will use later for more tool changes.</p>
+<p class="" style="white-space:pre-wrap;">It is a simple concept that requires zero math. I spent days convinced I needed functions that were way more complicated. I removed all of them. Simply saying that a bit at this height should be at this height. Next bit is not at that height, so set the current height to the original height. </p>
+<p class="" style="white-space:pre-wrap;">I have been wanting this simple capability in my setup ever since I switched from Mach 3 to Mach 4. I used a screenset in Mach 3 that gave me this capability. There were some issues with it that I was able to resolve. The main issue with the Mach 3 2010 screenset from Ger at this <a href="http://www.thecncwoodworker.com/2010.html">page</a> is that it was too minimal. You have to memorize what buttons do or look them up when you forgot.</p>
+<p class="" style="white-space:pre-wrap;">The other issue was that I would have issues every so often when setting up a job. Sometimes, for no reason that I could determine, after you set the machine 0 location it would run wild and plunge into the bed. I cannot explain that at all.</p>
+<p class="" style="white-space:pre-wrap;">With my Mach 4 screenset, I was able to use the profile that Avid CNC created and then modify the capabilities without changing anything in the configuration of the profile. Just using Lua commands to pull in data and write new data.</p>
+<p class="" style="white-space:pre-wrap;">I have added the needed files to my <a href="https://github.com/ubergeekseven/Mach4-ESS-Gathered">Github</a> and have information about how to get it into your setup or use a modified profile to add it to the new profile. There is not a straight forward method of only adding the needed changes though. If you have ever tried to work with mach 4 in editor mode, you know what I am talking about. Lua and the gui modification, in my opinion, suck. Typical to everything the company who created mach has every done, they chose something almost nobody uses and documentation is hard to figure out unless you spend a lot of time testing things until it makes sense.</p>
+<p class="" style="white-space:pre-wrap;">There are some videos on youtube that can help in this understanding. I have them at the bottom of my github page for this project. The missing manual video is not very explanatory but, it will give a wide overview of how to think when programming for mach 4. The rest of the videos out there are upwards of 7 years old. They add up to be several hours in length and you will probably have to watch them several times while practicing. DazTheGas is the guy who put out the most relevant information. Through his videos and his posts throughout several forum communities, I was able to piece together the understanding I needed. </p>
+<p class="" style="white-space:pre-wrap;">Let me explain a few things in this screenset, I may go in and change some things as I come by them or think about new things to add. As of now, I have a few sections that allow putting in data or capturing that data by pressing a button at a position. Below the image is a description of what is available in the setup portion.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        " data-test="image-block-inline-outer-wrapper">
+
+      
+
+      
+        <figure class="
+              sqs-block-image-figure
+              intrinsic
+            " style="max-width:877px;">
+          
+        
+        
+
+        
+          
+            
+          <div class="image-block-wrapper" data-animation-role="image">
+            <div class="sqs-image-shape-container-element
+              
+          
+        
+              has-aspect-ratio
+            " style="
+                position: relative;
+                
+                  padding-bottom:36.94412612915039%;
+                
+                overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);
+              ">
+                
+                  
+                  
+                  
+                  
+                  
+                  
+                  <img data-stretch="false" src="https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1a68a200-795b-42f8-983a-642ca2a5baad/Input.png" data-image="https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1a68a200-795b-42f8-983a-642ca2a5baad/Input.png" data-image-dimensions="877x324" data-image-focal-point="0.5,0.5" alt="" data-load="false" width="877" height="324" sizes="100vw" style="display:block;object-fit: cover; width: 100%; height: 100%; object-position: 50% 50%" srcset="https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1a68a200-795b-42f8-983a-642ca2a5baad/Input.png?format=100w 100w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1a68a200-795b-42f8-983a-642ca2a5baad/Input.png?format=300w 300w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1a68a200-795b-42f8-983a-642ca2a5baad/Input.png?format=500w 500w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1a68a200-795b-42f8-983a-642ca2a5baad/Input.png?format=750w 750w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1a68a200-795b-42f8-983a-642ca2a5baad/Input.png?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1a68a200-795b-42f8-983a-642ca2a5baad/Input.png?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/52ecfdcae4b0957cc408f660/1a68a200-795b-42f8-983a-642ca2a5baad/Input.png?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs">
+                
+            </div>
+          </div>
+        
+          
+        
+
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+
+
+<div class="sqs-html-content">
+  <p class="" data-rte-preserve-empty="true" style="white-space:pre-wrap;"></p>
+<ol data-rte-list="default">
+<li>
+<p class="" style="white-space:pre-wrap;">On the left top there are variables to set your probing settings up.</p>
+<ul data-rte-list="default">
+<li><p class="" style="white-space:pre-wrap;">Touch Plate Thickness - used to set the thickness of the moveable plate to subtract from the probing of the surface in step 1</p></li>
+<li><p class="" style="white-space:pre-wrap;">First Touch Speed - The speed when finding the first touch</p></li>
+<li><p class="" style="white-space:pre-wrap;">Second Touch Speed - to move slower after finding the plate</p></li>
+<li><p class="" style="white-space:pre-wrap;">How far to move up after touching</p></li>
+<li><p class="" style="white-space:pre-wrap;">How far to set the probe move to before stopping. I have disabled soft limits of the z in order to be able to call this and enabled at the end</p></li>
+<li><p class="" style="white-space:pre-wrap;">2nd Probing pre-move - after moving to the fixed plate the z axis will move this distance before starting the probing. Allows for getting to the plate faster</p></li>
+</ul>
+</li>
+<li>
+<p class="" style="white-space:pre-wrap;">The plate positions section</p>
+<ul data-rte-list="default">
+<li><p class="" style="white-space:pre-wrap;">you can enter the MTC position manually in machine coordinates or jog to the place you want to change your tool and press Save MTC Pos. It will move up to z0 machine pos, rapid to the MTC location and then move to the z height it is set to.</p></li>
+<li><p class="" style="white-space:pre-wrap;">Fixed Plate Location in machine coordinates. The same thing works here other than it only moves to xy location because tool heights are different. You can use the 2nd Probing pre-move entry to tune this for your job.</p></li>
+</ul>
+</li>
+</ol>
+<p class="" data-rte-preserve-empty="true" style="white-space:pre-wrap;"></p>
+<p class="" style="white-space:pre-wrap;">You will need 2 plates to use this setup. You could use 1 and move it to a fixed location after the fact. However, having one that stays where it was when touched during setup will make things much easier. My current plate can be move out of the way for material loading. Then put back into place after it is loaded. The current issue I have is that the mount is printed and it cracked at one point. So, there is a wobble in it now. </p>
+<p class="" style="white-space:pre-wrap;">I have not created any videos of this working yet. I worked so long on getting this figured out that I got a bit burnt out. I am also redesigning my fixed touch plate because the current one is not rigid enough any longer. I will add that design to my github when ready. </p>
+</div>
+</body></html>

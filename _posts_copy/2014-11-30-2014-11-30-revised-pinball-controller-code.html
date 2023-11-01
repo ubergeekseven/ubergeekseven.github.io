@@ -1,0 +1,234 @@
+---
+layout: post
+title: Revised Pinball Controller Code
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+<html><body>
+<div class="sqs-html-content">
+<p>So with my last attempt, I was using a SPST switch and attempting to use a spring to release the button. After several failed linear pots and a half working sketch, I tried something else.</p>
+<p>This time I am using a endstop type switch that is SPDT and I wired the Norm off position to the button 3 input and the Norm on position to the button 4 input. I tried to do the same sketch with the SPST using the ON position to start the readPull() function, and it just plain will not work. This solutino takes another input to resolve the issue, but it seems to work cleanly.</p>
+<p>The only thing is, because the function is outside the loop, the buttons wont work while pulling back. But, I do not think that people usually push the buttons while pulling the shooter. And now that I write this, I could just put the other buttons in to the function and in the off chance that you would push them, it would still work.</p>
+<p>Anyhow, this is the updated code. I will post the schematics another time. I need to move on to the actual game. I wasted enough time trying to figure out the pull shooter code.</p>
+</div>
+<pre class="source-code">
+
+/*
+All around joystick to easily create custom layouts 
+
+
+// this is the address of each button in the 4 bytes 
+definitions :
+#define BUTTON_1 0x01
+#define BUTTON_2 0x02
+#define BUTTON_3 0x03
+#define BUTTON_4 0x04
+#define BUTTON_5 0x05
+#define BUTTON_6 0x06
+#define BUTTON_7 0x07
+#define BUTTON_8 0x08
+#define BUTTON_9 0x09
+#define BUTTON_10 0x0A
+#define BUTTON_11 0x0B
+#define BUTTON_12 0x0C
+#define BUTTON_13 0x0D
+#define BUTTON_14 0x0E
+#define BUTTON_15 0x0F
+#define BUTTON_16 0x10
+#define BUTTON_17 0x11
+#define BUTTON_18 0x12
+#define BUTTON_19 0x13
+#define BUTTON_20 0x14
+#define BUTTON_21 0x15
+#define BUTTON_22 0x16
+#define BUTTON_23 0x17
+#define BUTTON_24 0x18
+#define BUTTON_25 0x19
+#define BUTTON_26 0x1A
+#define BUTTON_27 0x1B
+#define BUTTON_28 0x1C
+#define BUTTON_29 0x1D
+#define BUTTON_30 0x1E
+#define BUTTON_31 0x1F
+#define BUTTON_32 0x20
+
+*/
+
+    #include <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">Bounce2.h</span><span class="cm-tag cm-bracket">&gt;</span>
+    JoyState_t joySt; // joystick HID descriptor
+    
+    
+    const bool DEBUG = false;  // set to true to debug the raw values
+    int BUTTON_1 = 11;// LEFT TRIGGER ON PINBALL
+    int BUTTON_2 = 10;//RIGHT TRIGGER ON PINBALL
+    int BUTTON_3 = 9; //Used to trigger the value of the pinball shooter at its apex
+    int BUTTON_4 = 8; //
+    int throttlePin = A5; //One Axes for pinball shooter
+    int xPin = A2;
+    int yPin = A3;
+    int xZero, yZero;
+    int xValue, yValue;
+    int deadzone = 5;  // smaller values will be set to 0
+    int throttleValue;// CURRENTLY SET TO PINBALL LAUNCHER
+    unsigned int maxRead ; //SET MAXREAD AS THE MAX INPUT FOR THE BALL
+    unsigned int lastRead; // last stored reading greater than previous
+    unsigned int pushed; //was the button pushed last time?
+    int count = 0;
+    int maxCount = 100; // number of loops to allow the axis to be sent to the computer. The lower the number the less accurate the input. I will figure this out later.
+
+
+
+/**************************************************************************************/
+    void setup()
+    {
+
+    if(DEBUG) {
+        Serial.begin(9600);
+               }
+    
+
+        maxRead = 0;  //zero the value before loop
+        lastRead = 0; // zero the value before loop
+        pushed = false;
+     
+    // Setup the button with an internal pull-up :
+  
+  
+        pinMode(BUTTON_1,INPUT_PULLUP); 
+        pinMode(BUTTON_2,INPUT_PULLUP);
+        pinMode(throttlePin, INPUT);
+        pinMode(xPin, INPUT);
+        pinMode(yPin, INPUT);
+        pinMode(BUTTON_3,INPUT_PULLUP); 
+        pinMode(BUTTON_4,INPUT_PULLUP);     
+        xZero = analogRead(xPin);
+        yZero = analogRead(yPin);
+       
+    
+
+    // zero out all axis and button variables 
+    joySt.xAxis = 0;
+    joySt.yAxis = 0;
+    joySt.zAxis = 0;
+    joySt.xRotAxis = 0;
+    joySt.yRotAxis = 0;
+    joySt.zRotAxis = 0;
+    joySt.throttle = 0;
+    joySt.rudder = 0;
+    joySt.hatSw1 = 0;
+    joySt.hatSw2 = 0;
+    joySt.buttons = 0;
+
+       }
+
+
+  void loop() {
+          
+    while(digitalRead(BUTTON_4) == HIGH){
+      pushed = false;
+      count = 0;   
+      readPull();
+    }
+        
+        
+        if ((pushed == true) <span class="cm-error">&amp;</span><span class="cm-error">&amp;</span> (count <span class="cm-tag cm-bracket">&lt;</span><span class="cm-null cm-error">=</span> <span class="cm-tag">maxCount))</span> <span class="cm-attribute">{</span> <span class="cm-attribute">/</span><span class="cm-attribute">/</span> <span class="cm-attribute">if</span> <span class="cm-attribute">the</span> <span class="cm-attribute">button</span> <span class="cm-attribute">was</span> <span class="cm-attribute">pressed</span> <span class="cm-attribute">and</span> <span class="cm-attribute">the</span> <span class="cm-attribute">max</span> <span class="cm-attribute">count</span> <span class="cm-attribute">has</span> <span class="cm-attribute">not</span> <span class="cm-attribute">been</span> <span class="cm-attribute">reached</span>
+        <span class="cm-attribute">joySt.zAxis</span> = <span class="cm-string">map(maxRead,0,1023,0,255);</span> <span class="cm-attribute">/</span><span class="cm-attribute">/</span> <span class="cm-attribute">map</span> <span class="cm-attribute">the</span> <span class="cm-attribute">output</span> <span class="cm-attribute">to</span> <span class="cm-attribute">the</span> <span class="cm-attribute">axis</span>
+        <span class="cm-attribute">count++;</span> <span class="cm-attribute">/</span><span class="cm-attribute">/</span> <span class="cm-attribute">add</span> <span class="cm-attribute">one</span> <span class="cm-attribute">to</span> <span class="cm-attribute">the</span> <span class="cm-attribute">count</span>
+          <span class="cm-attribute">}</span>
+         <span class="cm-attribute">else</span> <span class="cm-attribute">if</span> <span class="cm-attribute">(count</span> = <span class="cm-string">maxCount){</span>
+           <span class="cm-attribute">pushed</span> = <span class="cm-string">false;</span>
+           <span class="cm-attribute">count</span> = <span class="cm-string">0;</span>
+           <span class="cm-attribute">joySt.zAxis</span> = <span class="cm-string">0;</span>
+         <span class="cm-attribute">}</span>       
+
+
+        <span class="cm-attribute">joySt.buttons</span> = <span class="cm-string">0x00;</span> <span class="cm-attribute">/</span><span class="cm-attribute">/</span> <span class="cm-attribute">off</span> <span class="cm-attribute">state</span>
+        
+        
+        <span class="cm-attribute">if</span> <span class="cm-attribute">(digitalRead(BUTTON_1)</span> =<span class="cm-null cm-error">=</span> <span class="cm-attribute">LOW){</span>
+        <span class="cm-attribute">joySt.buttons</span> <span class="cm-attribute">+</span>= <span class="cm-string">0x01;</span>
+        
+        <span class="cm-attribute">}</span>
+        
+        <span class="cm-attribute">if</span> <span class="cm-attribute">(digitalRead(BUTTON_2)</span> =<span class="cm-null cm-error">=</span> <span class="cm-attribute">LOW){</span>
+        <span class="cm-attribute">joySt.buttons</span> <span class="cm-attribute">+</span>= <span class="cm-string">0x02;</span> <span class="cm-attribute">//adds</span> <span class="cm-attribute">the</span> <span class="cm-attribute">two</span> <span class="cm-attribute">inputs</span> <span class="cm-attribute">together</span>
+       
+        <span class="cm-attribute">}</span>
+        
+
+
+        <span class="cm-attribute">xValue</span> = <span class="cm-string">analogRead(xPin)</span> <span class="cm-attribute">-</span> <span class="cm-attribute">xZero;</span>
+    <span class="cm-attribute">yValue</span> = <span class="cm-string">analogRead(yPin)</span> <span class="cm-attribute">-</span> <span class="cm-attribute">yZero;</span>
+
+    <span class="cm-attribute">if(abs(xValue)</span> <span class="cm-error">&lt; deadzone) {</span>
+        xValue = 0;
+    }
+    if(abs(yValue) <span class="cm-tag cm-bracket">&lt;</span> <span class="cm-tag">deadzone)</span> <span class="cm-attribute">{</span>
+        <span class="cm-attribute">yValue</span> = <span class="cm-string">0;</span>
+    <span class="cm-attribute">}</span>
+
+    
+
+    <span class="cm-attribute">joySt.xAxis</span> = <span class="cm-string">map(xValue,</span> <span class="cm-attribute">450,</span> <span class="cm-attribute">-450,</span> <span class="cm-attribute">0,</span> <span class="cm-attribute">255);</span>  <span class="cm-attribute">/</span><span class="cm-attribute">/</span> <span class="cm-attribute">here</span> <span class="cm-attribute">the</span> <span class="cm-attribute">axis</span> <span class="cm-attribute">is</span> <span class="cm-attribute">inverted</span>
+    <span class="cm-attribute">joySt.yAxis</span> = <span class="cm-string">map(yValue,</span> <span class="cm-attribute">-400,</span> <span class="cm-attribute">400,</span> <span class="cm-attribute">0,</span> <span class="cm-attribute">255);</span>
+
+        
+        
+    <span class="cm-attribute">if(DEBUG)</span> <span class="cm-attribute">{</span>
+        <span class="cm-attribute">Serial.print(</span><span class="cm-string cm-error">"X: "</span><span class="cm-attribute">);</span>
+        <span class="cm-attribute">Serial.println(xValue);</span>
+        <span class="cm-attribute">Serial.print(</span><span class="cm-string cm-error">"Y: "</span><span class="cm-attribute">);</span>
+        <span class="cm-attribute">Serial.println(yValue);</span>
+                <span class="cm-attribute">Serial.print(</span><span class="cm-string cm-error">"Throttle value"</span><span class="cm-attribute">);</span>
+                <span class="cm-attribute">Serial.println(throttleValue);</span>
+                <span class="cm-attribute">Serial.print(</span><span class="cm-string cm-error">"maxread"</span><span class="cm-attribute">);</span>
+                <span class="cm-attribute">Serial.println(maxRead);</span>
+                <span class="cm-attribute">Serial.print(</span><span class="cm-string cm-error">"lastRead"</span><span class="cm-attribute">);</span>
+                <span class="cm-attribute">Serial.println(lastRead);</span>
+                
+    <span class="cm-attribute">}</span>
+
+
+
+
+    <span class="cm-attribute">/</span><span class="cm-attribute">/</span> <span class="cm-attribute">Call</span> <span class="cm-attribute">Joystick.move</span>
+    <span class="cm-attribute">Joystick.setState(&amp;joySt);</span>
+
+     <span class="cm-attribute">}</span>
+                <span class="cm-attribute">/**************************************************</span><span class="cm-attribute">/</span>
+   <span class="cm-attribute">void</span> <span class="cm-attribute">readPull()</span> <span class="cm-attribute">{</span>
+     
+         <span class="cm-attribute">throttleValue</span> = <span class="cm-string">analogRead(throttlePin);</span>  <span class="cm-attribute">//(throttlePin)</span> <span class="cm-attribute">-</span> <span class="cm-attribute">throttleZero;</span>
+         <span class="cm-attribute">joySt.throttle</span> = <span class="cm-string">map(throttleValue,0,1023,0,255);</span> <span class="cm-attribute">/</span><span class="cm-attribute">/</span> <span class="cm-attribute">scaling</span> <span class="cm-attribute">the</span> <span class="cm-attribute">throttle</span> <span class="cm-attribute">value</span>      
+  
+         <span class="cm-attribute">if</span> <span class="cm-attribute">(digitalRead(BUTTON_3)</span> =<span class="cm-null cm-error">=</span> <span class="cm-attribute">HIGH){</span> <span class="cm-attribute">//if</span> <span class="cm-attribute">the</span> <span class="cm-attribute">button</span> <span class="cm-attribute">is</span> <span class="cm-attribute">pushed</span> <span class="cm-attribute">set</span> <span class="cm-attribute">pushed</span> <span class="cm-attribute">to</span> <span class="cm-attribute">true</span> <span class="cm-attribute">and</span> <span class="cm-attribute">lastread</span> <span class="cm-attribute">to</span> <span class="cm-attribute">0</span> <span class="cm-attribute">and</span> <span class="cm-attribute">set</span> <span class="cm-attribute">the</span> <span class="cm-attribute">axis</span> <span class="cm-attribute">value</span> <span class="cm-attribute">to</span> <span class="cm-attribute">the</span> <span class="cm-attribute">max</span> <span class="cm-attribute">read.</span> <span class="cm-attribute">lastread</span> <span class="cm-attribute">will</span> <span class="cm-attribute">read</span> <span class="cm-attribute">on</span> <span class="cm-attribute">the</span> <span class="cm-attribute">next</span> <span class="cm-attribute">loop</span>
+           <span class="cm-attribute">pushed</span> = <span class="cm-string">true;</span>  
+           <span class="cm-attribute">lastRead</span> = <span class="cm-string">0;</span>
+         <span class="cm-attribute">}</span>
+           
+           <span class="cm-attribute">/</span><span class="cm-attribute">/</span> <span class="cm-attribute">THIS</span> <span class="cm-attribute">SECTION</span> <span class="cm-attribute">WILL</span> <span class="cm-attribute">DETERMINE</span> <span class="cm-attribute">THE</span> <span class="cm-attribute">LAST</span> <span class="cm-attribute">HIGHEST</span> <span class="cm-attribute">READING</span> <span class="cm-attribute">AND</span> <span class="cm-attribute">APPLY</span> <span class="cm-attribute">THAT</span> <span class="cm-attribute">TO</span> <span class="cm-attribute">THE</span> <span class="cm-attribute">BUTTON</span> 
+        
+        <span class="cm-attribute">if</span> <span class="cm-attribute">(throttleValue</span> <span class="cm-tag cm-bracket">&gt;</span> lastRead) {
+                 lastRead = throttleValue; // store the current throttle value in last read
+        }
+          else if (throttleValue <span class="cm-tag cm-bracket">&lt;</span><span class="cm-null cm-error">=</span> <span class="cm-tag">lastRead)</span> <span class="cm-attribute">{</span> <span class="cm-attribute">//throttle</span> <span class="cm-attribute">is</span> <span class="cm-attribute">changing</span> <span class="cm-attribute">direction</span> <span class="cm-attribute">so</span> <span class="cm-attribute">record</span> <span class="cm-attribute">th</span> <span class="cm-attribute">elast</span> <span class="cm-attribute">value</span> <span class="cm-attribute">that</span> <span class="cm-attribute">was</span> <span class="cm-attribute">the</span> <span class="cm-attribute">highes</span> <span class="cm-attribute">t</span> <span class="cm-attribute">and</span> <span class="cm-attribute">store</span> <span class="cm-attribute">it</span> 
+                 <span class="cm-attribute">maxRead</span> = <span class="cm-string">lastRead;</span>  <span class="cm-attribute">/</span><span class="cm-attribute">/</span> <span class="cm-attribute">store</span> <span class="cm-attribute">the</span> <span class="cm-attribute">max</span> <span class="cm-attribute">value</span> <span class="cm-attribute">in</span> <span class="cm-attribute">last</span> <span class="cm-attribute">read</span>
+              
+        <span class="cm-attribute">}</span>
+        
+            <span class="cm-attribute">/</span><span class="cm-attribute">/</span> <span class="cm-attribute">Call</span> <span class="cm-attribute">Joystick.move</span>
+    <span class="cm-attribute">Joystick.setState(&amp;joySt);</span> <span class="cm-attribute">/</span><span class="cm-attribute">/</span> <span class="cm-attribute">apparently</span> <span class="cm-attribute">this</span> <span class="cm-attribute">has</span> <span class="cm-attribute">to</span> <span class="cm-attribute">be</span> <span class="cm-attribute">called</span> <span class="cm-attribute">every</span> <span class="cm-attribute">time</span> <span class="cm-attribute">to</span> <span class="cm-attribute">update</span> <span class="cm-attribute">the</span> <span class="cm-attribute">position</span> <span class="cm-attribute">of</span> <span class="cm-attribute">an</span> <span class="cm-attribute">axis</span> <span class="cm-attribute">or</span> <span class="cm-attribute">joystick</span> <span class="cm-attribute">button.</span> 
+         <span class="cm-attribute">}</span>
+
+   
+                <span class="cm-attribute">/**************************************************</span><span class="cm-attribute">/</span></pre>
+<div class="sqs-html-content">
+<p>Until next time.....</p>
+</div>
+</body></html>

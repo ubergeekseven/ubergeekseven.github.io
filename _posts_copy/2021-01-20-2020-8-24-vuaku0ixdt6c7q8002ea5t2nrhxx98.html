@@ -1,0 +1,17 @@
+---
+layout: post
+title: Mach 3 2010 Screenset Setup and Use with CNCRouterParts/Avid CNC Pro Setup
+categories: []
+tags: []
+status: draft
+type: post
+published: false
+meta: {}
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+<html><body><div class="sqs-html-content">
+<p class="" style="white-space:pre-wrap;">I bought the screenset well over a year ago when I saw the auto tool zero feature. I dug through it and I could not get my head around some of the things that needed to be done. I wrote in to some of the forums to ask some questions I had about settings and the developer responded with answers that I wasn't comfortable enough to make the changes without fear of harming my CNC. Since then I've added on a lot of things to the c&amp;c, like a rotary axis and all kinds of special macros to do set up for different things. In that time I eventually figured out enough about Mark 3 to understand the changes that I was told to make and be confident that they would still work.</p>
+<p class="" style="white-space:pre-wrap;">I am not sure why CNC router parts decided to make some of the settings for the z-axis the way they were. Some of the macros in screen set have to have specific settings for the configuration, so that everything travels in the directions that the macro state without messing something up on your machine.</p>
+<p class="" style="white-space:pre-wrap;">The other thing I had to do was add a second permanent touchpoint for the Auto tool zero macro to work. On my CNC I don’t have space for this to exist. I could put it somewhere permanently, but then that would lead to me not being able to position sheet good materials all the time without having to remove it and then put it back. instead of decided to design a movable one, that's in the same position but can be rotated out of position so that you can load sheet goods or to just get it out of the way. It's always in the same location, except for when using the rotary axis. With the rotary axis being used, I would just use a portion of the rotary head as the touchpoint for tool offsets. That point is always there when the rotary axis is mounted. I wanted to make it to where I didn't have to clip something onto the tool to be able to sense the signal. So I ordered some 4 pin aviation connectors so that I could split out the probe signal. Now I can run ground to the frame of the CNC and then only have to place my touch plate wherever it needs to go to signal. This causes an issue with the permanent touchpoint because I attached it to the frame. It always senses a signal because the probe and the frame have become a connected signal. to get around this I then printed a piece to go in between the probe and the frame out of plastic that will prevent signal from crossing until it touches.</p>
+</div></body></html>
