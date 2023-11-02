@@ -3,8 +3,8 @@ import re
 
 # Define the directory and paths
 src_md_dir = "./_posts/"
-old_path = "/assets/images/old_blog//"
-new_path = "/assets/img/"
+old_path = "/assets/img/"
+new_path = "/img/"
 
 md_files = [f for f in os.listdir(src_md_dir) if f.endswith('.md')]
 

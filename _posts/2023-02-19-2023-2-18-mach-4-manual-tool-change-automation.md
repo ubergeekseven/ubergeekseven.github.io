@@ -2,7 +2,7 @@
 CNC tags: \- avidcnc \- CNCRouterparts \- CNCRP \- CNC \- mach4 \- mach 4
 status: publish type: post published: true meta: _thumbnail_id: '83' \---
 
-![](/assets/img/Annotation+2023-02-18+093639.png)
+![](/img/Annotation+2023-02-18+093639.png)
 
 [ Mach 4 M6 Macro - Github ](https://github.com/ubergeekseven/Mach4-ESS-
 Gathered)
@@ -73,7 +73,7 @@ few sections that allow putting in data or capturing that data by pressing a
 button at a position. Below the image is a description of what is available in
 the setup portion.
 
-![](/assets/img/Input.png)
+![](/img/Input.png)
 
   1. On the left top there are variables to set your probing settings up.
 

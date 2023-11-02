@@ -9,17 +9,17 @@ this piece. It's fairly complicated and I want to use as little silicone as I
 can. Especially with the issue I ran in to the last time I tried to mold a
 part of this project.
 
-![just after printing](/assets/img/20140211_062431.jpg)
+![just after printing](/img/20140211_062431.jpg)
 
 just after printing
 
 ![after the first sanding and vapor
-chamber](/assets/img/20140215_074823.jpg)
+chamber](/img/20140215_074823.jpg)
 
 after the first sanding and vapor chamber
 
 ![here are the other parts of the project. almost fondue with the master
-models](/assets/img/20140216_132556.jpg)
+models](/img/20140216_132556.jpg)
 
 here are the other parts of the project. almost fondue with the master models
 

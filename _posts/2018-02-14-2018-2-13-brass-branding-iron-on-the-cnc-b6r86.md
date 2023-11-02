@@ -5,7 +5,7 @@ I have been wanting to try this for a while. I used a 12x2x.25 inch brass bar
 to carve my logo out of. Using Vectric Aspire, I was able to import my svg
 file and then post the gcode to mach3.
 
-![](/assets/img/hqdefault.jpg)
+![](/img/hqdefault.jpg)
 
 I ran into several issues and ended up having to try 3 times before getting it
 right. I also had to order a smaller endmill to finish the cuts. First I used
@@ -16,9 +16,9 @@ I used a 4.85 degree tapered endmill with a .8 mm ball nose tip at a height of
 material was very thin. But the end result did not show that in the burn I
 did.
 
-![20180207_071416.jpg](/assets/img/20180207_071416.jpg)
+![20180207_071416.jpg](/img/20180207_071416.jpg)
 
-![WoodBurned.jpg](/assets/img/WoodBurned.jpg)
+![WoodBurned.jpg](/img/WoodBurned.jpg)
 
 next I attempted to braze the stamp to a brass rod. I am not sure what I did
 wrong, but this is the first time I have attempted brazing and it did not
@@ -42,5 +42,5 @@ Edit:
 I was able to finally get the rod attached. It is not pretty, but it finally
 worked. Definitely had to get it hotter than I did previously.
 
-![](/assets/img/image-asset.jpeg)
+![](/img/image-asset.jpeg)
 

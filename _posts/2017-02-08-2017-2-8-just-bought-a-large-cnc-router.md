@@ -7,7 +7,7 @@ format CNC router. I purchased mine from
 great with responses to questions and concerns. They even called me after I
 placed my order.
 
-![A render without the legs.](/assets/img/CNCBED)
+![A render without the legs.](/img/CNCBED)
 
 A render without the legs.
 

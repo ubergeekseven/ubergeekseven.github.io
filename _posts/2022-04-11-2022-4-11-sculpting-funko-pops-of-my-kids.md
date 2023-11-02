@@ -11,5 +11,5 @@ I printed using a mixture of craftsman resin and 20% siraya tech tenacious.
 The color of the craftsman and the added strength from the siraya tech is
 unbeatable.
 
-![](/assets/img/20220119_142931.jpg)
+![](/img/20220119_142931.jpg)
 

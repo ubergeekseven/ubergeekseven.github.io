@@ -34,5 +34,5 @@ spheres of different colors. glitter works for that.
 I have finished the table. It seems impossible to make black epoxy perfect. So
 much polishing.
 
-![](/assets/img/20211223_181551.jpg)
+![](/img/20211223_181551.jpg)
 

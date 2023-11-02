@@ -8,7 +8,7 @@ have to replace the linear bearings on my gantry until absolutely necessary. I
 know they have wipers on them, but small amounts of anything could make it
 inside of them. At least I think so.
 
-![Pretty dirty](/assets/img/Bearing+Dirty)
+![Pretty dirty](/img/Bearing+Dirty)
 
 Pretty dirty
 
@@ -33,7 +33,7 @@ without allowing it to go under the machine between the bed and extrusion. I
 left about 1/4 inch of fabric hanging off of the edge to butt up against the
 spoil board.
 
-![20190121_070630.jpg](/assets/img/20190121_070630.jpg)
+![20190121_070630.jpg](/img/20190121_070630.jpg)
 
 Now I have protection. Simple, inexpensive and hopefully prevents having to
 remove this gantry before I need to. I have tried to use a few different
@@ -43,5 +43,5 @@ gantry and was not easy to remove when needed. Blowing the rails off
 constantly is another method I have seen online, but the expense and the noise
 prevented me from trying that. This works.
 
-![20190120_112456.jpg](/assets/img/20190120_112456.jpg)
+![20190120_112456.jpg](/img/20190120_112456.jpg)
 

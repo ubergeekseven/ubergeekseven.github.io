@@ -25,7 +25,7 @@ In the settings dialog, enter 0.0001 as the rotation radius. Or enter your
 actual stock radius. Not sure if the bug was fixed, for this in the version I
 use. I have not checked if the actual radius produces the same result.
 
-![RotarySettings.PNG](/assets/img/RotarySettings.PNG)
+![RotarySettings.PNG](/img/RotarySettings.PNG)
 
 Now you should be able to run your rotary axis at an actual working pace. Such
 a clunky bit of software and the forums are getting dated and hard to search.

@@ -9,7 +9,7 @@ needs some bearings and a different travel route with swiveling pulleys to
 better aid in the feeding. Some more tubing would limit the chances of kinks
 interfering with the movement.
 
-![cleans up the outside](/assets/img/upload.jpg)
+![cleans up the outside](/img/upload.jpg)
 
 cleans up the outside
 

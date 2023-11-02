@@ -16,7 +16,7 @@ between the model and the silicone. I opened it up to see if anything touching
 the model surface did not cure. After all my forethought and planning, I
 didn't even question whether or not my surface would inhibit the silicone.
 
-![20140131_162754.jpg](/assets/img/20140131_162754.jpg)
+![20140131_162754.jpg](/img/20140131_162754.jpg)
 
 After reading the information for the silicone. I saw that they recommend
 sealing your model with an acrylic lacquer. I searched at every store I could
@@ -35,16 +35,16 @@ so far in my model as well as adding the two other products I have purchased.
 
 Here are the products used in this test:
 
-![20140131_163812.jpg](/assets/img/20140131_163812.jpg)
-![20140131_163812.jpg](/assets/img/20140131_163812.jpg)
-![20140131_162141.jpg](/assets/img/20140131_162141.jpg)
-![20140131_162141.jpg](/assets/img/20140131_162141.jpg)
-![20140131_162151.jpg](/assets/img/20140131_162151.jpg)
-![20140131_162151.jpg](/assets/img/20140131_162151.jpg)
-![20140131_163649.jpg](/assets/img/20140131_163649.jpg)
-![20140131_163649.jpg](/assets/img/20140131_163649.jpg)
-![20140131_163710.jpg](/assets/img/20140131_163710.jpg)
-![20140131_163710.jpg](/assets/img/20140131_163710.jpg)
+![20140131_163812.jpg](/img/20140131_163812.jpg)
+![20140131_163812.jpg](/img/20140131_163812.jpg)
+![20140131_162141.jpg](/img/20140131_162141.jpg)
+![20140131_162141.jpg](/img/20140131_162141.jpg)
+![20140131_162151.jpg](/img/20140131_162151.jpg)
+![20140131_162151.jpg](/img/20140131_162151.jpg)
+![20140131_163649.jpg](/img/20140131_163649.jpg)
+![20140131_163649.jpg](/img/20140131_163649.jpg)
+![20140131_163710.jpg](/img/20140131_163710.jpg)
+![20140131_163710.jpg](/img/20140131_163710.jpg)
 
 The test is laid out from left to right and then one object on the bottom of
 the page.
@@ -67,15 +67,15 @@ maybe if I seal with the gloss acrylic lacquer and then coat with the matte
 acrylic, it will not react. But just in case I need to test this before
 wasting mass material.
 
-![20140201_104045.jpg](/assets/img/20140201_104045.jpg)
+![20140201_104045.jpg](/img/20140201_104045.jpg)
 
 Here are the pieces, covered with the silicone rubber, before curing.
 
-![20140201_111512.jpg](/assets/img/20140201_111512.jpg)
+![20140201_111512.jpg](/img/20140201_111512.jpg)
 
 And finally, the pieces after curing.
 
-![  ](/assets/img/20140201_195206.jpg)
+![  ](/img/20140201_195206.jpg)
 
 As you may be able to tell from the photo, the only one to inhibit the curing
 of Smooth-On sorta clear 40 was the Rustoleum smooth protective enamel.

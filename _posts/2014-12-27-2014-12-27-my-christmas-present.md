@@ -2,7 +2,7 @@
 \- 3dPrinting status: publish type: post published: true meta: _thumbnail_id:
 '6' \---
 
-![upload.jpeg](/assets/img/upload.jpeg)
+![upload.jpeg](/img/upload.jpeg)
 
 I have had a 3d printer for over two years now. I started with the MBot cube
 which at the time most printers were constructed using laser cut plywood, and

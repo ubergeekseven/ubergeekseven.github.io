@@ -18,5 +18,5 @@ Bert, got this one. Thought it was funny. Kind of. In a dad joke way.
 I created 6 so far. Eventually, after chrostmas is over, I will post the files
 for use.
 
-![BeerHolder.jpg](/assets/img/BeerHolder.jpg)
+![BeerHolder.jpg](/img/BeerHolder.jpg)
 

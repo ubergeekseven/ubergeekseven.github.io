@@ -14,5 +14,5 @@ itself in the table. I have cut into the actual metal beams 2 times already.
 It is becoming a super inconvenient problem. I may have to downgrade to
 windows 7.
 
-![KallilaptopTable.jpg](/assets/img/KallilaptopTable.jpg)
+![KallilaptopTable.jpg](/img/KallilaptopTable.jpg)
 

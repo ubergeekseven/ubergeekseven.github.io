@@ -2,7 +2,7 @@
 categories: [] tags: [] status: publish type: post published: true meta: {}
 \---
 
-![upload.png](/assets/img/upload.png)
+![upload.png](/img/upload.png)
 
 5-6 year's ago, I attempted to create an all in one home automation system. I
 was capable of cobbling together several different half working setups. But
@@ -34,7 +34,7 @@ Most using zigbee or zwave and most claiming compatibility with other products
 in that sphere. I couldn't wait until those devices came out, and today, they
 are here.
 
-![upload.jpeg](/assets/img/upload.jpeg)
+![upload.jpeg](/img/upload.jpeg)
 
 This is not to say that they are perfect. But, i now can use several systems
 depending on what hardware they offer, together. The bad thing this time

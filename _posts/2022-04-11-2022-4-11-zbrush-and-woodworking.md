@@ -31,9 +31,9 @@ thinner than the reset and is framed by some rocks to make it seem like the
 pond is flowing out of the bottom right. The lily pads there are above some
 gravel I spread throughout the section.
 
-![](/assets/img/Dec2021ZbrushInterface.png)
+![](/img/Dec2021ZbrushInterface.png)
 
-![](/assets/img/CarvePond1.jpg)
+![](/img/CarvePond1.jpg)
 
 I decided that the rocks were good enough for the bonsai to sit in instead of
 the pot itself.
@@ -44,60 +44,60 @@ odd perspective. Then I carved it using my CNC into walnut that I glued up. I
 also made a mixture of bees wax and mineral oil to polish and protect it. That
 finish seems to darken the walnut drastically. I love the look.
 
-![20220121_104910.jpg](/assets/img/20220121_104910.jpg)
-![20220121_104910.jpg](/assets/img/20220121_104910.jpg)
+![20220121_104910.jpg](/img/20220121_104910.jpg)
+![20220121_104910.jpg](/img/20220121_104910.jpg)
 
-![20220121_104920.jpg](/assets/img/20220121_104920.jpg)
-![20220121_104920.jpg](/assets/img/20220121_104920.jpg)
+![20220121_104920.jpg](/img/20220121_104920.jpg)
+![20220121_104920.jpg](/img/20220121_104920.jpg)
 
-![20220121_151825.jpg](/assets/img/20220121_151825.jpg)
-![20220121_151825.jpg](/assets/img/20220121_151825.jpg)
+![20220121_151825.jpg](/img/20220121_151825.jpg)
+![20220121_151825.jpg](/img/20220121_151825.jpg)
 
-![20220121_151844.jpg](/assets/img/20220121_151844.jpg)
-![20220121_151844.jpg](/assets/img/20220121_151844.jpg)
+![20220121_151844.jpg](/img/20220121_151844.jpg)
+![20220121_151844.jpg](/img/20220121_151844.jpg)
 
-![20220121_151900.jpg](/assets/img/20220121_151900.jpg)
-![20220121_151900.jpg](/assets/img/20220121_151900.jpg)
+![20220121_151900.jpg](/img/20220121_151900.jpg)
+![20220121_151900.jpg](/img/20220121_151900.jpg)
 
-![20220121_214217.jpg](/assets/img/20220121_214217.jpg)
-![20220121_214217.jpg](/assets/img/20220121_214217.jpg)
+![20220121_214217.jpg](/img/20220121_214217.jpg)
+![20220121_214217.jpg](/img/20220121_214217.jpg)
 
-![20220121_214903.jpg](/assets/img/20220121_214903.jpg)
-![20220121_214903.jpg](/assets/img/20220121_214903.jpg)
+![20220121_214903.jpg](/img/20220121_214903.jpg)
+![20220121_214903.jpg](/img/20220121_214903.jpg)
 
-![20220121_214907.jpg](/assets/img/20220121_214907.jpg)
-![20220121_214907.jpg](/assets/img/20220121_214907.jpg)
+![20220121_214907.jpg](/img/20220121_214907.jpg)
+![20220121_214907.jpg](/img/20220121_214907.jpg)
 
-![20220121_214926.jpg](/assets/img/20220121_214926.jpg)
-![20220121_214926.jpg](/assets/img/20220121_214926.jpg)
+![20220121_214926.jpg](/img/20220121_214926.jpg)
+![20220121_214926.jpg](/img/20220121_214926.jpg)
 
-![20220121_214958.jpg](/assets/img/20220121_214958.jpg)
-![20220121_214958.jpg](/assets/img/20220121_214958.jpg)
+![20220121_214958.jpg](/img/20220121_214958.jpg)
+![20220121_214958.jpg](/img/20220121_214958.jpg)
 
-![20220121_215000.jpg](/assets/img/20220121_215000.jpg)
-![20220121_215000.jpg](/assets/img/20220121_215000.jpg)
+![20220121_215000.jpg](/img/20220121_215000.jpg)
+![20220121_215000.jpg](/img/20220121_215000.jpg)
 
-![20220122_101202.jpg](/assets/img/20220122_101202.jpg)
-![20220122_101202.jpg](/assets/img/20220122_101202.jpg)
+![20220122_101202.jpg](/img/20220122_101202.jpg)
+![20220122_101202.jpg](/img/20220122_101202.jpg)
 
-![20220123_130436\(1\).jpg](/assets/img/20220123_130436%281%29.jpg)
-![20220123_130436\(1\).jpg](/assets/img/20220123_130436%281%29.jpg)
+![20220123_130436\(1\).jpg](/img/20220123_130436%281%29.jpg)
+![20220123_130436\(1\).jpg](/img/20220123_130436%281%29.jpg)
 
-![20220123_130436.jpg](/assets/img/20220123_130436.jpg)
-![20220123_130436.jpg](/assets/img/20220123_130436.jpg)
+![20220123_130436.jpg](/img/20220123_130436.jpg)
+![20220123_130436.jpg](/img/20220123_130436.jpg)
 
-![20220123_130443.jpg](/assets/img/20220123_130443.jpg)
-![20220123_130443.jpg](/assets/img/20220123_130443.jpg)
+![20220123_130443.jpg](/img/20220123_130443.jpg)
+![20220123_130443.jpg](/img/20220123_130443.jpg)
 
-![20220123_130453.jpg](/assets/img/20220123_130453.jpg)
-![20220123_130453.jpg](/assets/img/20220123_130453.jpg)
+![20220123_130453.jpg](/img/20220123_130453.jpg)
+![20220123_130453.jpg](/img/20220123_130453.jpg)
 
-![20220123_145747.jpg](/assets/img/20220123_145747.jpg)
-![20220123_145747.jpg](/assets/img/20220123_145747.jpg)
+![20220123_145747.jpg](/img/20220123_145747.jpg)
+![20220123_145747.jpg](/img/20220123_145747.jpg)
 
-![20220123_145916.jpg](/assets/img/20220123_145916.jpg)
-![20220123_145916.jpg](/assets/img/20220123_145916.jpg)
+![20220123_145916.jpg](/img/20220123_145916.jpg)
+![20220123_145916.jpg](/img/20220123_145916.jpg)
 
-![20220123_145916~2.jpg](/assets/img/20220123_145916%7E2.jpg)
-![20220123_145916~2.jpg](/assets/img/20220123_145916%7E2.jpg)
+![20220123_145916~2.jpg](/img/20220123_145916%7E2.jpg)
+![20220123_145916~2.jpg](/img/20220123_145916%7E2.jpg)
 

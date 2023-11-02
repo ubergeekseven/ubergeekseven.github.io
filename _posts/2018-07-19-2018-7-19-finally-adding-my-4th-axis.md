@@ -24,7 +24,7 @@ should think about as an addition rather than a custom build.
 View fullsize
 
 ![From: https://mkmra2.blogspot.com/2016/07/cnc-router-rotary-
-axis.html?showComment=1531996713332#c3445697055729914903](/assets/img/From%3A+https%3A%2F%2Fmkmra2.blogspot.com%2F2016%2F07%2Fcnc-
+axis.html?showComment=1531996713332#c3445697055729914903](/img/From%3A+https%3A%2F%2Fmkmra2.blogspot.com%2F2016%2F07%2Fcnc-
 router-rotary-axis.html%3FshowComment%3D1531996713332%23c3445697055729914903)
 
 When writing to CNCRP about the stepper motor connection setup, at least with

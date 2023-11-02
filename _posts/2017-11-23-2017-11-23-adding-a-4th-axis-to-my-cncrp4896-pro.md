@@ -9,7 +9,7 @@ Morse2/32810517253.html?spm=a2g0s.9042311.0.0.yg7XK5)the other day. There was
 a sale, so I got it in hand within a week and it cost me around $400 shipped.
 Now that I have it, I need to figure out how in the world to use it.
 
-![4thAxis.jpg](/assets/img/4thAxis.jpg)
+![4thAxis.jpg](/img/4thAxis.jpg)
 
 [This guy](https://mkmra2.blogspot.com/2016/07/cnc-router-rotary-
 axis.html?showComment=1511352072221#c8932560345732086727) set his up in almost

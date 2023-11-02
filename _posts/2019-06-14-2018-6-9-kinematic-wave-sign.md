@@ -12,7 +12,7 @@ First was to incorporate their logo into the design.
 
 View fullsize
 
-![Horizontal-Logo.png](/assets/img/Horizontal-Logo.png)
+![Horizontal-Logo.png](/img/Horizontal-Logo.png)
 
 Since there are waves within the design, I decided to try and make a kinematic
 machine that mimicked a wave. The first design I created included a shaft that
@@ -79,16 +79,16 @@ this is just for my learning and not for my living, I spent lots of time
 redoing things to improve the results. No money made, but I learned much more
 than I set out to. I think it was worth the time invested.
 
-![sketch1529544606063.png](/assets/img/sketch1529544606063.png)
-![sketch1529544606063.png](/assets/img/sketch1529544606063.png)
+![sketch1529544606063.png](/img/sketch1529544606063.png)
+![sketch1529544606063.png](/img/sketch1529544606063.png)
 ![sketch1529544518048 -
-Copy.png](/assets/img/sketch1529544518048+-+Copy.png)
+Copy.png](/img/sketch1529544518048+-+Copy.png)
 ![sketch1529544518048 -
-Copy.png](/assets/img/sketch1529544518048+-+Copy.png)
-![sketch1529544584637.png](/assets/img/sketch1529544584637.png)
-![sketch1529544584637.png](/assets/img/sketch1529544584637.png)
-![sketch1529544631518.png](/assets/img/sketch1529544631518.png)
-![sketch1529544631518.png](/assets/img/sketch1529544631518.png)
+Copy.png](/img/sketch1529544518048+-+Copy.png)
+![sketch1529544584637.png](/img/sketch1529544584637.png)
+![sketch1529544584637.png](/img/sketch1529544584637.png)
+![sketch1529544631518.png](/img/sketch1529544631518.png)
+![sketch1529544631518.png](/img/sketch1529544631518.png)
 
   
   

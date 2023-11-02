@@ -34,7 +34,7 @@ Supplies used:
 
   * 2N2222a transistor - $5.97 for 200 of them at [amazon](https://www.amazon.com/McIgIcM-2n2222-transistor-Through-2n2222a/dp/B06XPWS52G/ref=sr_1_2?ie=UTF8&qid=1550138826&sr=8-2&keywords=2n2222a)
 
-![ProbeCircuit.PNG](/assets/img/ProbeCircuit.PNG)
+![ProbeCircuit.PNG](/img/ProbeCircuit.PNG)
 
 Bear in mind that the break out board optocoupler has a 1.2K resistor on the
 input. That being said, I still have a 1K resistor on the output of the
@@ -44,7 +44,7 @@ the input down. However, the circuit still works fine and since it was
 working, I did not change it.
 
 ![2501 optocoupler and 1.2k
-resistor](/assets/img/20190207_091146.jpg)
+resistor](/img/20190207_091146.jpg)
 
 2501 optocoupler and 1.2k resistor
 
@@ -64,7 +64,7 @@ White is the normally closed input connection. This is unused in this project.
 However, if you do not have a touch plate, you can use this as the input as
 normally connected without an inverter.
 
-![CapturePlug.jpg](/assets/img/CapturePlug.jpg)
+![CapturePlug.jpg](/img/CapturePlug.jpg)
 
 When I wired my setup, I decided to run a pigtail out of the touch plate. The
 circuit board is attached to the end of my probe wire bundle. If you were to
@@ -134,11 +134,11 @@ used the button to run the M997 command. Now everything that was available in
 the default screenset, is available in 2010. I used machscreen to make the
 modifications.
 
-![Original homing from CNCRouterParts](/assets/img/OGHoming.PNG)
+![Original homing from CNCRouterParts](/img/OGHoming.PNG)
 
 Original homing from CNCRouterParts
 
-![Changes for 2010 screenset](/assets/img/Capture.PNG)
+![Changes for 2010 screenset](/img/Capture.PNG)
 
 Changes for 2010 screenset
 

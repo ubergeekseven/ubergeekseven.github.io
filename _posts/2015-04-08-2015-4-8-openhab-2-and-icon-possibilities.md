@@ -23,42 +23,42 @@ could be more visually accurate to the actual light state.
 
 Anyway, here is what I have.
 
-![OpenhabLights_switch-off.png](/assets/img/OpenhabLights_switch-
+![OpenhabLights_switch-off.png](/img/OpenhabLights_switch-
 off.png) ![OpenhabLights_switch-
-off.png](/assets/img/OpenhabLights_switch-off.png)
+off.png](/img/OpenhabLights_switch-off.png)
 
-![OpenhabLights_slider-01.png](/assets/img/OpenhabLights_slider-01.png)
-![OpenhabLights_slider-01.png](/assets/img/OpenhabLights_slider-01.png)
+![OpenhabLights_slider-01.png](/img/OpenhabLights_slider-01.png)
+![OpenhabLights_slider-01.png](/img/OpenhabLights_slider-01.png)
 
-![OpenhabLights_slider-10.png](/assets/img/OpenhabLights_slider-10.png)
-![OpenhabLights_slider-10.png](/assets/img/OpenhabLights_slider-10.png)
+![OpenhabLights_slider-10.png](/img/OpenhabLights_slider-10.png)
+![OpenhabLights_slider-10.png](/img/OpenhabLights_slider-10.png)
 
-![OpenhabLights_slider-20.png](/assets/img/OpenhabLights_slider-20.png)
-![OpenhabLights_slider-20.png](/assets/img/OpenhabLights_slider-20.png)
+![OpenhabLights_slider-20.png](/img/OpenhabLights_slider-20.png)
+![OpenhabLights_slider-20.png](/img/OpenhabLights_slider-20.png)
 
-![OpenhabLights_slider-30.png](/assets/img/OpenhabLights_slider-30.png)
-![OpenhabLights_slider-30.png](/assets/img/OpenhabLights_slider-30.png)
+![OpenhabLights_slider-30.png](/img/OpenhabLights_slider-30.png)
+![OpenhabLights_slider-30.png](/img/OpenhabLights_slider-30.png)
 
-![OpenhabLights_slider-40.png](/assets/img/OpenhabLights_slider-40.png)
-![OpenhabLights_slider-40.png](/assets/img/OpenhabLights_slider-40.png)
+![OpenhabLights_slider-40.png](/img/OpenhabLights_slider-40.png)
+![OpenhabLights_slider-40.png](/img/OpenhabLights_slider-40.png)
 
-![OpenhabLights_slider-50.png](/assets/img/OpenhabLights_slider-50.png)
-![OpenhabLights_slider-50.png](/assets/img/OpenhabLights_slider-50.png)
+![OpenhabLights_slider-50.png](/img/OpenhabLights_slider-50.png)
+![OpenhabLights_slider-50.png](/img/OpenhabLights_slider-50.png)
 
-![OpenhabLights_slider-60.png](/assets/img/OpenhabLights_slider-60.png)
-![OpenhabLights_slider-60.png](/assets/img/OpenhabLights_slider-60.png)
+![OpenhabLights_slider-60.png](/img/OpenhabLights_slider-60.png)
+![OpenhabLights_slider-60.png](/img/OpenhabLights_slider-60.png)
 
-![OpenhabLights_slider-70.png](/assets/img/OpenhabLights_slider-70.png)
-![OpenhabLights_slider-70.png](/assets/img/OpenhabLights_slider-70.png)
+![OpenhabLights_slider-70.png](/img/OpenhabLights_slider-70.png)
+![OpenhabLights_slider-70.png](/img/OpenhabLights_slider-70.png)
 
-![OpenhabLights_slider-80.png](/assets/img/OpenhabLights_slider-80.png)
-![OpenhabLights_slider-80.png](/assets/img/OpenhabLights_slider-80.png)
+![OpenhabLights_slider-80.png](/img/OpenhabLights_slider-80.png)
+![OpenhabLights_slider-80.png](/img/OpenhabLights_slider-80.png)
 
-![OpenhabLights_slider-90.png](/assets/img/OpenhabLights_slider-90.png)
-![OpenhabLights_slider-90.png](/assets/img/OpenhabLights_slider-90.png)
+![OpenhabLights_slider-90.png](/img/OpenhabLights_slider-90.png)
+![OpenhabLights_slider-90.png](/img/OpenhabLights_slider-90.png)
 
-![OpenhabLights_slider-100.png](/assets/img/OpenhabLights_slider-100.png)
-![OpenhabLights_slider-100.png](/assets/img/OpenhabLights_slider-100.png)
+![OpenhabLights_slider-100.png](/img/OpenhabLights_slider-100.png)
+![OpenhabLights_slider-100.png](/img/OpenhabLights_slider-100.png)
 
   
 

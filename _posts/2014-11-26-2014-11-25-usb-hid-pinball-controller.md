@@ -16,7 +16,7 @@ i wanted to use debouncing for my input buttons, but then after researching, i
 found that there are a crazy amount of ways to do it. Note i have to find the
 best for this project.
 
-![upload.jpeg](/assets/img/upload.jpeg)
+![upload.jpeg](/img/upload.jpeg)
 
-![upload.jpeg](/assets/img/upload.jpeg)
+![upload.jpeg](/img/upload.jpeg)
 

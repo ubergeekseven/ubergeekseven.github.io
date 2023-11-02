@@ -77,7 +77,7 @@ background. Red turns off and green turns on.
 View fullsize
 
 ![I used the default light bulb icon on the streamdeck website and replaced
-the backgrounds.](/assets/img/stramdecklightexample.png)
+the backgrounds.](/img/stramdecklightexample.png)
 
 I used the default light bulb icon on the streamdeck website and replaced the
 backgrounds.
