@@ -62,7 +62,8 @@ sass:
 
 #-------------------------------
 # Exclude from processing.
-# exclude:
+ exclude:
+    - /import_squarspace/
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
