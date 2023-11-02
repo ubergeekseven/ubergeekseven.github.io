@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: /assets/images/michaeldot.png
+image: michaeldot.png
 permalink: /about/
 ---
 
