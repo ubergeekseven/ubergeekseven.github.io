@@ -14,6 +14,9 @@ module JekyllImport
   # wordpress.com blog (/wp-admin/export.php).
   module WordpressDotCom
     attr :image_folder
+    # create a folder and put the path here to output the images. You may want to put the image folder where they will live for the actual site when finished. 
+    # this will make the follwoing steps easier to do because they rewrite the html to have the correct lcoation for serving.
+    # then the md translation will work without issue.
     @image_folder = 'squarespace_images'
 
     def self.download_image(src, dest)
