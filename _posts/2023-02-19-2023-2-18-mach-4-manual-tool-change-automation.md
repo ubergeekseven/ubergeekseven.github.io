@@ -1,10 +1,22 @@
-\--- layout: post title: Mach 4 Manual Tool Change - Automation categories: \-
-CNC tags: \- avidcnc \- CNCRouterparts \- CNCRP \- CNC \- mach4 \- mach 4
-status: publish type: post published: true meta: _thumbnail_id: '83' \---
+---
+image:
+  path: /img/Annotation+2023-02-18+093639.png
+  caption: "Mach 4 Manual Tool Change"
+date: 2014-02-01
+header:
+  teaser: /img/Annotation+2023-02-18+093639.png
+  overlay_image: /img/Annotation+2023-02-18+093639.png
+  actions:
+    - label: "Mach 4 Manual Tool Change"
+      
+tagline: "Just a macro setup to give tool change capabilities for mach4"
+toc: true
+toc_label: "Contents"
+--- 
 
-![](/img/Annotation+2023-02-18+093639.png)
 
-[ Mach 4 M6 Macro - Github ](https://github.com/ubergeekseven/Mach4-ESS-
+
+[Mach 4 M6 Macro - Github](https://github.com/ubergeekseven/Mach4-ESS-
 Gathered)
 
 This setup will make tool changes with M6 much faster. It also allows you to
