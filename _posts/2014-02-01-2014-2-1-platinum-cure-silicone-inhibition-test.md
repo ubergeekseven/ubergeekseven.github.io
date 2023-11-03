@@ -1,12 +1,11 @@
 ---
-teaser: /img/20140201_195206.jpg
 image:
   path: /img/20140201_195206.jpg
   caption: "Platinum Cure Silicone Test"
 date: 2014-02-01
 header:
+  teaser: /img/20140201_195206.jpg
   overlay_image: /img/20140201_195206.jpg
-  caption: "Photo from the series: [**Straying around**](/weekend_stories/2021/2021-03_Stray_around_3/)"
   actions:
     - label: "platinum cure silicone test"
       
@@ -50,7 +49,7 @@ of silicone, I am going to do a test on all of the products that I have used
 so far in my model as well as adding the two other products I have purchased.
 
 Here are the products used in this test:
-
+gallery:
 ![20140131_163812.jpg](/img/20140131_163812.jpg)
 ![20140131_163812.jpg](/img/20140131_163812.jpg)
 ![20140131_162141.jpg](/img/20140131_162141.jpg)
