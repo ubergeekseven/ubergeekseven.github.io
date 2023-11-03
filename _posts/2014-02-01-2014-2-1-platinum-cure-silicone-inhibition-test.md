@@ -1,6 +1,11 @@
-\--- layout: post title: Platinum Cure Silicone Inhibition Test categories: []
-tags: \- silicone mold material inhibition \- silicone molds status: publish
-type: post published: true meta: {} \---
+--- 
+layout: post 
+title: Platinum Cure Silicone Inhibition Test 
+categories: []
+tags:- silicone mold material inhibition - silicone molds status: publish
+type: post published: true 
+meta: {} 
+---
 
 I recently purchased [Smooth-On's sortaclear 40](http://www.smooth-
 on.com/index.php?cPath=1134) for a project i have been working on. I spent at
