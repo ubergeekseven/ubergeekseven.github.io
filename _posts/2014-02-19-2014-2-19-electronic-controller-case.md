@@ -1,5 +1,7 @@
-\--- layout: post title: Electronic controller case categories: [] tags: []
-status: publish type: post published: true meta: {} \---
+--- 
+layout: post 
+title: Electronic controller case 
+---
 
 I have the electronics case printed and sanded. I have filled most of the
 divots with Tamiya putty.  
