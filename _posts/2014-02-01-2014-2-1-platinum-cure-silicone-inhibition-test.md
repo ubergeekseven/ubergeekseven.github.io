@@ -1,4 +1,5 @@
 ---
+teaser: /img/20140201_195206.jpg
 image:
   path: /img/20140201_195206.jpg
   caption: "Platinum Cure Silicone Test"
@@ -10,6 +11,8 @@ header:
     - label: "platinum cure silicone test"
       
 tagline: "This is a custom tagline content which overrides the *default* page excerpt."
+toc: true
+toc_label: "Contents"
 --- 
 
 
