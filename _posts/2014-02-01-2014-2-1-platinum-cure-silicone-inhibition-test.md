@@ -1,8 +1,16 @@
---- 
-layout: post 
-title: Platinum Cure Silicone Inhibition Test 
-image:/img/20140201_195206.jpg
 ---
+date: 2014-02-01
+header:
+  overlay_image: /img/20140201_195206.jpg
+  caption: "Photo from the series: [**Straying around**](/weekend_stories/2021/2021-03_Stray_around_3/)"
+  actions:
+    - label: "platinum cure silicone test"
+      
+tagline: "This is a custom tagline content which overrides the *default* page excerpt."
+--- 
+
+
+
 
 I recently purchased [Smooth-On's sortaclear 40](http://www.smooth-
 on.com/index.php?cPath=1134) for a project i have been working on. I spent at
