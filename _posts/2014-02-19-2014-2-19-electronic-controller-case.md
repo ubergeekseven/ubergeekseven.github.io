@@ -1,8 +1,16 @@
---- 
-layout: post 
-title: Electronic controller case 
 ---
-
+image:
+  path: /img/20140211_062431.jpg
+  caption: "Electronics Case Mold Prep"
+date: 2014-02-01
+header:
+  teaser: /img/20140211_062431.jpg
+  overlay_image: /img/20140211_062431.jpg
+  actions:
+    - label: ""
+toc: true
+toc_label: "Contents"
+---
 I have the electronics case printed and sanded. I have filled most of the
 divots with Tamiya putty.  
 I'll have this ready by the end of the week.  
