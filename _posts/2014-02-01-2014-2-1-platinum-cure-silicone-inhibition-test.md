@@ -1,4 +1,7 @@
 ---
+image:
+path:/img/20140201_195206.jpg
+caption:"Platinum Cure Silicone Test"
 date: 2014-02-01
 header:
   overlay_image: /img/20140201_195206.jpg
