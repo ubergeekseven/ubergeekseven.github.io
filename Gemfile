@@ -10,7 +10,7 @@ gem "minimal-mistakes-jekyll"
 #
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/
-group :jekyll_plugins do
+gem 'github-pages', group :jekyll_plugins do
     gem 'faraday-retry', '~> 2.2.0' if ENV["GITHUB_ACTIONS"] != "true"
     gem 'jekyll-target-blank'
 end
