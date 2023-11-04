@@ -1,8 +1,8 @@
 ---
 date: 2022-04-11
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/20220123_145916.jpg
+  overlay_image: /img/20220123_145916.jpg
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"
@@ -103,6 +103,4 @@ finish seems to darken the walnut drastically. I love the look.
 ![20220123_145916.jpg](/img/20220123_145916.jpg)
 ![20220123_145916.jpg](/img/20220123_145916.jpg)
 
-![20220123_145916~2.jpg](/img/20220123_145916%7E2.jpg)
-![20220123_145916~2.jpg](/img/20220123_145916%7E2.jpg)
 

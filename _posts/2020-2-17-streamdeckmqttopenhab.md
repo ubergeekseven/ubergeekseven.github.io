@@ -1,8 +1,8 @@
 ---
 date: 2020-02-17
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/stramdecklightexample.png
+  overlay_image: /img/stramdecklightexample.png
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"

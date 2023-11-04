@@ -1,8 +1,8 @@
 ---
 date: 2022-04-11
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/20211223_181551.jpg
+  overlay_image: /img/20211223_181551.jpg
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"

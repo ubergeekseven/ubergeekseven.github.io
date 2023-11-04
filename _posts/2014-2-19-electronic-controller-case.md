@@ -1,25 +1,13 @@
 ---
 date: 2014-02-19
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/20140211_062431.jpg
+  overlay_image: /img/20140211_062431.jpg
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"
 --- 
----
-image:
-  path: /img/20140211_062431.jpg
-  caption: "Electronics Case Mold Prep"
-date: 2014-02-01
-header:
-  teaser: /img/20140211_062431.jpg
-  overlay_image: /img/20140211_062431.jpg
-  actions:
-    - label: ""
-toc: true
-toc_label: "Contents"
----
+
 I have the electronics case printed and sanded. I have filled most of the
 divots with Tamiya putty.  
 I'll have this ready by the end of the week.  

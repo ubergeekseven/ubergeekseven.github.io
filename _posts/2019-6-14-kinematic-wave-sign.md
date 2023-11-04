@@ -1,8 +1,8 @@
 ---
 date: 2019-06-14
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/sketch1529544584637.png
+  overlay_image: /img/sketch1529544584637.png
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"

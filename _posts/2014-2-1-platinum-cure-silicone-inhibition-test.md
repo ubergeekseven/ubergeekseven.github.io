@@ -1,29 +1,12 @@
 ---
 date: 2014-02-01
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/20140201_195206.jpg
+  overlay_image: /img/20140201_195206.jpg
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"
 --- 
----
-image:
-  path: /img/20140201_195206.jpg
-  caption: "Platinum Cure Silicone Test"
-date: 2014-02-01
-header:
-  teaser: /img/20140201_195206.jpg
-  overlay_image: /img/20140201_195206.jpg
-  actions:
-    - label: "platinum cure silicone test"
-      
-tagline: "This is a custom tagline content which overrides the *default* page excerpt."
-toc: true
-toc_label: "Contents"
---- 
-
-
 
 
 I recently purchased [Smooth-On's sortaclear 40](http://www.smooth-

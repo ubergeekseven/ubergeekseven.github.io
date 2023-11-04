@@ -1,28 +1,12 @@
 ---
 date: 2023-01-27
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/20230122_113608.jpg
+  overlay_image: /img/20230122_113608.jpg
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"
 --- 
----
-image:
-  path: /img/20230122_113608.jpg
-  caption: "Chopstick Jig"
-date: 2023-01-27
-header:
-  teaser: /img/20230122_113608.jpg
-  overlay_image: /img/20230122_113608.jpg
-  actions:
-    - label: "Chopstick Jig"
-      
-tagline: "Chopstick jig designed in fusion 360 and machined on CNCRP"
-toc: true
-toc_label: "Contents"
---- 
-
 
 <img src="/img/20230122_113608.jpg" width="400px" height="300px">
 

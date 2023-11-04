@@ -1,8 +1,8 @@
 ---
 date: 2019-01-21
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/20190121_070630.jpg
+  overlay_image: /img/20190121_070630.jpg
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"
@@ -12,7 +12,7 @@ have to replace the linear bearings on my gantry until absolutely necessary. I
 know they have wipers on them, but small amounts of anything could make it
 inside of them. At least I think so.
 
-![Pretty dirty](/img/Bearing+Dirty)
+![Pretty dirty](/img/Bearing+Dirty.png)
 
 Pretty dirty
 

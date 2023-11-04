@@ -1,8 +1,8 @@
 ---
 date: 2019-01-21
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/RotarySettings.PNG
+  overlay_image: /img/RotarySettings.PNG
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"

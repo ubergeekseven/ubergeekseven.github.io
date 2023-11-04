@@ -1,8 +1,8 @@
 ---
 date: 2019-02-14
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/ProbeCircuit.PNG
+  overlay_image: /img/ProbeCircuit.PNG
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"

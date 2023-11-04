@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2023-02-19
 header:
   teaser: /img/Annotation+2023-02-18+093639.png
