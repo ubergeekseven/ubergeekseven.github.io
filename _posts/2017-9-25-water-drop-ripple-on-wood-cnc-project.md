@@ -1,7 +1,12 @@
-\--- layout: post title: Water Drop Ripple on Wood CNC Project categories: []
-tags: [] status: publish type: post published: true meta: _thumbnail_id: '38'
-\---
-
+---
+date: 2017-09-25
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I purchased a CNC router parts pro 4896 a while back. Took a month before I
 could build it and months to get time to do anything else with it. Finally,
 I'm starting my first project.

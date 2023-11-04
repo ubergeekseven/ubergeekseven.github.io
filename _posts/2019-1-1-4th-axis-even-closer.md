@@ -1,6 +1,12 @@
-\--- layout: post title: 4th Axis Cut and Built categories: [] tags: []
-status: publish type: post published: true meta: _thumbnail_id: '61' \---
-
+---
+date: 2019-01-01
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I have cut all the aluminum plates. Spray painted them and mounted them to the
 extrusion.
 

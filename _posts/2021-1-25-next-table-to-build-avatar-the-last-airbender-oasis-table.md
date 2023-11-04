@@ -1,7 +1,12 @@
-\--- layout: post title: Next Table to Build - Avatar the Last Airbender.
-Oasis Table categories: [] tags: [] status: publish type: post published: true
-meta: _thumbnail_id: '75' \---
-
+---
+date: 2021-01-25
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 Currently I am still designing this table. I recently purchased a resin
 printer that, once I printed the first objects, made me realize the potential
 of this.

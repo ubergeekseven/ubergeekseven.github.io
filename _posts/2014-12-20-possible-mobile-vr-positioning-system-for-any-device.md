@@ -1,7 +1,12 @@
-\--- layout: post title: Possible mobile vr positioning system... for any
-device? categories: \- vr tags: \- tracking \- vr status: publish type: post
-published: true meta: _thumbnail_id: '8' \---
-
+---
+date: 2014-12-20
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I have recently stated to work with the vuforia sdk for unity. It is for ar,
 but it's possible to remove the camera feed used as the background to them use
 the markers for loading scene content.

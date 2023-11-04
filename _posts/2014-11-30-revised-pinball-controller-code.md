@@ -1,6 +1,12 @@
-\--- layout: post title: Revised Pinball Controller Code categories: [] tags:
-[] status: publish type: post published: true meta: {} \---
-
+---
+date: 2014-11-30
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 So with my last attempt, I was using a SPST switch and attempting to use a
 spring to release the button. After several failed linear pots and a half
 working sketch, I tried something else.

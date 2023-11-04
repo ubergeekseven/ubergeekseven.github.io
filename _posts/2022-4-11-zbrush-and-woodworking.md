@@ -1,7 +1,12 @@
-\--- layout: post title: Zbrush and Woodworking categories: [] tags: \- zbrush
-\- vectric aspire \- sculpting status: publish type: post published: true
-meta: _thumbnail_id: '77' \---
-
+---
+date: 2022-04-11
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I spent about a month digging deep into Zbrush. There are a few channels on
 youtube that really pushed me into it and allowed me to get very comfortable
 with the interface.

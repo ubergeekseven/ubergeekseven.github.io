@@ -1,7 +1,12 @@
-\--- layout: post title: New Home... I Need a New Home Automation Setup
-categories: [] tags: [] status: publish type: post published: true meta: {}
-\---
-
+---
+date: 2015-02-05
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 ![upload.png](/img/upload.png)
 
 5-6 year's ago, I attempted to create an all in one home automation system. I

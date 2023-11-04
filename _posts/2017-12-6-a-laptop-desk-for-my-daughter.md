@@ -1,6 +1,12 @@
-\--- layout: post title: A laptop Desk For My Daughter categories: [] tags: []
-status: publish type: post published: true meta: _thumbnail_id: '44' \---
-
+---
+date: 2017-12-06
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I just finished a laptop desk for my daughter after she saw the one I made for
 myself. Her favorite color, for now, is purple. I used purple dye on the board
 and will finish it with lacquer.

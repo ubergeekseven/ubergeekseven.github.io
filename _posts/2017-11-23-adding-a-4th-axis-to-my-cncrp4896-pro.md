@@ -1,7 +1,12 @@
-\--- layout: post title: Adding A 4th Axis to My CNCRP4896 Pro categories: []
-tags: [] status: publish type: post published: true meta: _thumbnail_id: '40'
-\---
-
+---
+date: 2017-11-23
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I ordered a 4th axis from [AliExpress
 ](https://www.aliexpress.com/item/3-Jaw-100mm-Chuck-4th-Axis-Reduction-
 Ratio-50-1-Gapless-Harmonic-Gearbox-Rotary-Axis-

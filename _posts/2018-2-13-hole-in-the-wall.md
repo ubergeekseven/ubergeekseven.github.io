@@ -1,7 +1,12 @@
-\--- layout: post title: Hole in the Wall - My Take on the Kerfwall by Kerf
-Designs categories: [] tags: [] status: publish type: post published: true
-meta: _thumbnail_id: '49' \---
-
+---
+date: 2018-02-13
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 So, I found a design that I liked for my kids to have in their rooms. It would
 allow rearranging on the fly and allow additions and expansion with time.
 However, they are charging an insane amount for what is very basic design and

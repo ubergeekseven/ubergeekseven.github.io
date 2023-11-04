@@ -1,7 +1,12 @@
-\--- layout: post title: Home Automation and the Hue API and Problem with the
-Dimmer Remotes categories: [] tags: \- HUE \- HUE API \- Home Automation \-
-REST status: publish type: post published: true meta: _thumbnail_id: '33' \---
-
+---
+date: 2016-06-17
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I have been using Openhab for over two years now and most of the time I have
 used the Hue bridge and lights to connect Zigbee devices to my network. I only
 used the apps, which are terrible, to add lights and bring them in to groups.

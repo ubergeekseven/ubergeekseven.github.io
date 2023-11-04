@@ -1,6 +1,12 @@
-\--- layout: post title: Epoxy & Cherry Table categories: [] tags: [] status:
-publish type: post published: true meta: _thumbnail_id: '73' \---
-
+---
+date: 2022-04-11
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I have several projects I have started. I am learning epoxy resin tricks and
 dealing with large amounts of it.
 

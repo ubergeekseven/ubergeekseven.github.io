@@ -1,8 +1,12 @@
-\--- layout: post title: Covering My Linear Rails - CNCROUTERPARTS 4896 Pro
-categories: [] tags: \- CNCRouterparts \- Linear Rails \- Bearing Cover \-
-Maker \- Make \- DIY status: publish type: post published: true meta:
-_thumbnail_id: '65' \---
-
+---
+date: 2019-01-21
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I do not know if it is an actual problem to solve, but I also do not want to
 have to replace the linear bearings on my gantry until absolutely necessary. I
 know they have wipers on them, but small amounts of anything could make it

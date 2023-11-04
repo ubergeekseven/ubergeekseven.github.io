@@ -1,7 +1,12 @@
-\--- layout: post title: Sidetrack from a hackaday post categories: \-
-3dPrinting tags: \- 3d printing \- circuitry \- electroplating status: publish
-type: post published: true meta: {} \---
-
+---
+date: 2015-01-13
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 While reading hackaday, I saw that someone copper plated a 3d print using a
 solution of acetone and graphite powder. After quickly creating some copper
 acetate from a equal amount of 3% hydrogen peroxide and 6% vinegar and some

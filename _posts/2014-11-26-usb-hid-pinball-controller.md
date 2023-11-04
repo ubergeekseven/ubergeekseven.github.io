@@ -1,6 +1,12 @@
-\--- layout: post title: USB HID Pinball Controller categories: \- controllers
-tags: \- controller status: publish type: post published: true meta: {} \---
-
+---
+date: 2014-11-26
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 another project that I've started is a pinball virtual reality game for
 Android. So to make this game feel more realistic and give you a sense of
 presence I am creat It took me a few days but I figured out how to make the

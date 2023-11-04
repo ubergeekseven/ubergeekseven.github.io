@@ -1,6 +1,12 @@
-\--- layout: post title: Dig ring welder categories: [] tags: [] status:
-publish type: post published: true meta: {} \---
-
+---
+date: 2015-01-28
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 i ran across a diy spot welder and decided to build one for creating heading
 elements and temperature probes. I have plenty of the raw material, just
 needed a way to do it myself. The cost of manufactured probes is crazy. This

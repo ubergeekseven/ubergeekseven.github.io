@@ -1,6 +1,12 @@
-\--- layout: post title: Playing with A-Frame categories: [] tags: [] status:
-draft type: post published: false meta: {} \---
-
+---
+date: 2022-04-19
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I wanted to try and create a 360 render/image viewer that allows you to walk
 through it. Ultimately I want to make it room scale if possible. Limited on
 time I just started from the easiest part and made it stationary.

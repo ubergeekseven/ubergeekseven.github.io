@@ -1,7 +1,12 @@
-\--- layout: post title: Finally... Time to Post Something categories: []
-tags: [] status: publish type: post published: true meta: _thumbnail_id: '31'
-\---
-
+---
+date: 2016-01-14
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 View fullsize
 
 ![trackTogether](/assets/images/old_blog/trackTogether)

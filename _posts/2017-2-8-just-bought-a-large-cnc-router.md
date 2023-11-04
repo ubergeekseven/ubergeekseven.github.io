@@ -1,6 +1,12 @@
-\--- layout: post title: Just bought a large CNC router categories: [] tags:
-[] status: publish type: post published: true meta: {} \---
-
+---
+date: 2017-02-08
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 3 weeks until I have my shipment, and then I will be diving in to this large
 format CNC router. I purchased mine from
 [CNCrouterparts](http://www.cncrouterparts.com) and so far they have been

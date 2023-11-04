@@ -1,4 +1,13 @@
 ---
+date: 2014-02-01
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
+---
 image:
   path: /img/20140201_195206.jpg
   caption: "Platinum Cure Silicone Test"

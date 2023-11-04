@@ -1,9 +1,12 @@
-\--- layout: post title: 4th Axis Working... Finally! Another thing to check
-categories: [] tags: \- CNCRouterparts \- 4th \- 4th axis \- mach 3 \- mach 3
-rotary \- mach 3 rotary very slow \- slow rotary \- a axis rotates slow \-
-vectric \- fusion status: publish type: post published: true meta:
-_thumbnail_id: '67' \---
-
+---
+date: 2019-01-21
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I have been messing with the 4th axis for half of the day today. I finally got
 the nerve to test it doing a simple toolpath to create a dowel of a certain
 diameter. When I ran it, the axis moved incredibly slow. Looking into this

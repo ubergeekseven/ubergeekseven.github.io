@@ -1,7 +1,12 @@
-\--- layout: post title: Decent add on for the davinci with a few issues
-categories: [] tags: [] status: publish type: post published: true meta: {}
-\---
-
+---
+date: 2015-01-07
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 XYZ Da Vinci Aftermarket Spool Kit found on #Thingiverse
 http://www.thingiverse.com/thing:592197
 

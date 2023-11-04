@@ -1,7 +1,12 @@
-\--- layout: post title: An easy way to add a base to an STL surface... if you
-can afford it. categories: [] tags: [] status: draft type: post published:
-false meta: {} \---
-
+---
+date: 2018-06-09
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 TLDR; import STL surface into Vectric Aspire, export as STL and import to the
 program you want.
 

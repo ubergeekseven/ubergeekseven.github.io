@@ -1,6 +1,12 @@
-\--- layout: post title: ADD and the internet categories: [] tags: [] status:
-publish type: post published: true meta: {} \---
-
+---
+date: 2015-01-29
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 Why can't I go a single day without wanting a new project. At this point, I'm
 up to a hundred projects that need completing. I have most of the parts, but
 none of the time needed to complete them. I have drawers of components with

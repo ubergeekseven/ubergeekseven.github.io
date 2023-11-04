@@ -1,6 +1,12 @@
-\--- layout: post title: Testing Sketchfab WebVR categories: [] tags: []
-status: publish type: post published: true meta: _thumbnail_id: '42' \---
-
+---
+date: 2017-11-28
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I am inserting a test file in the site to see if I can launch models I am
 working on, within windows mixed reality. Maybe I can create a workflow from
 this for design.

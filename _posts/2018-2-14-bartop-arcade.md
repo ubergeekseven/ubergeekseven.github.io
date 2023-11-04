@@ -1,6 +1,12 @@
-\--- layout: post title: Bartop Arcade categories: [] tags: [] status: publish
-type: post published: true meta: _thumbnail_id: '53' \---
-
+---
+date: 2018-02-14
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I did not document anything with this project. I finished it and it has been
 around for months now. Might as well add it to my page.
 

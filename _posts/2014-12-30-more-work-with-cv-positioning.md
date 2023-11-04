@@ -1,6 +1,12 @@
-\--- layout: post title: More Work With CV Positioning categories: [] tags: []
-status: publish type: post published: true meta: {} \---
-
+---
+date: 2014-12-30
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 ![upload.png](/img/upload.png)
 
 This is an early build to test positioning using the camera of my phone to

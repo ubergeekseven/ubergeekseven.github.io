@@ -1,6 +1,12 @@
-\--- layout: post title: Pinball Controller HID code categories: [] tags: []
-status: publish type: post published: true meta: {} \---
-
+---
+date: 2014-11-27
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 So, i worked on my controller for a while last night. I have it working, but I
 need to refine the program a bit.
 

@@ -1,7 +1,12 @@
-\--- layout: post title: My Christmas Present categories: \- 3dPrinting tags:
-\- 3dPrinting status: publish type: post published: true meta: _thumbnail_id:
-'6' \---
-
+---
+date: 2014-12-27
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 ![upload.jpeg](/img/upload.jpeg)
 
 I have had a 3d printer for over two years now. I started with the MBot cube

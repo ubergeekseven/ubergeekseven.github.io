@@ -1,6 +1,12 @@
-\--- layout: post title: Made an Eggbot - But Bigger categories: [] tags: []
-status: publish type: post published: true meta: _thumbnail_id: '63' \---
-
+---
+date: 2019-01-01
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I have been wanting to build an eggbot for a few years. I printed one, made it
 work and realized it is too small. So, I redesigned one myself and used
 aluminum plate and extrusion to build it out.

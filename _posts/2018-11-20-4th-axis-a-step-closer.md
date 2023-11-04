@@ -1,7 +1,12 @@
-\--- layout: post title: 4th Axis Calculating Settings and Changing the Post
-Processor categories: \- CNC tags: [] status: publish type: post published:
-true meta: _thumbnail_id: '59' \---
-
+---
+date: 2018-11-20
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 Last week, while waiting for something else to finish, I decided to wire up my
 4th axis. That was easy enough because the wires matched colors on both sides.
 Plus, it is only 4 wires. Once connected, I used my MPG to step the motor and

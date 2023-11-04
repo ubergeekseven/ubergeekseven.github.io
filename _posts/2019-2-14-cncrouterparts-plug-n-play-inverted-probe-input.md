@@ -1,8 +1,12 @@
-\--- layout: post title: Avid CNC Plug-n-Play Inverted Probe Input - different
-signals on 1 input categories: \- CNC tags: \- CNCRouterparts \- CNCRP \- CNC
-\- 4th axis \- probe \- probing \- not gate \- invert \- mach3 \- mach 3
-status: publish type: post published: true meta: _thumbnail_id: '69' \---
-
+---
+date: 2019-02-14
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 Mach3 has only 1 probe input available. So if you have the corner finding
 plate set up on the machine and you want to connect a touch probe, you will
 need to make a simple circuit to invert the signal so that you can have both a

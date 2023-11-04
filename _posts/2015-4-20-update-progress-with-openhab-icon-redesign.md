@@ -1,7 +1,12 @@
-\--- layout: post title: Update Progress With OpenHab Icon Redesign
-categories: [] tags: [] status: publish type: post published: true meta:
-_thumbnail_id: '1' \---
-
+---
+date: 2015-04-20
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 ![](/img/image-asset.png)
 
 Here is the progress. I will upload them to the repository soon. Hopefully

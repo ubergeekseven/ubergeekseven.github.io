@@ -1,10 +1,10 @@
 ---
+layout: post
 date: 2023-02-19
 header:
   teaser: /img/Annotation+2023-02-18+093639.png
   overlay_image: /img/Annotation+2023-02-18+093639.png
   overlay_filter: 0.8
-tagline: "Just a macro setup to give tool change capabilities for mach4"
 toc: true
 toc_label: "Contents"
 --- 

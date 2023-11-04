@@ -1,7 +1,12 @@
-\--- layout: post title: Anyone want to modify or improve my vr headset
-design? categories: [] tags: [] status: publish type: post published: true
-meta: {} \---
-
+---
+date: 2014-12-24
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 https://drive.google.com/folder/d/0B2I6c7T2dqQ2S1hnVmhtbHI5ZXc/edit
 
 ![top view](/img/upload.bmp)

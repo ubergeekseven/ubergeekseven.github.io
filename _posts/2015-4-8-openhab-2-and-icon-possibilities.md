@@ -1,8 +1,12 @@
-\--- layout: post title: Openhab 2 and Icon Possibilities categories: [] tags:
-\- Openhab \- home automation \- icons \- illustrator status: publish type:
-post published: true meta: structured_content: '{"oembed":{},"overlay":true}'
-_thumbnail_id: '29' \---
-
+---
+date: 2015-04-08
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 In the free time that I have, I am attempting to redesign the icons for
 openhab. I want to stay in line somewhat with the material design google now
 has on their interfaces. So, I started making my own interface with tasker and

@@ -1,7 +1,12 @@
-\--- layout: post title: FINALLY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! figured it
-out categories: [] tags: [] status: publish type: post published: true meta:
-{} \---
-
+---
+date: 2014-11-28
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 And now that I have it figured out, I feel stupid. I guess sleeping on it
 works.
 

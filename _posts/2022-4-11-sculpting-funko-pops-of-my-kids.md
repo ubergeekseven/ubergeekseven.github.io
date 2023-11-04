@@ -1,6 +1,12 @@
-\--- layout: post title: Sculpting Funko Pops of my Kids categories: [] tags:
-[] status: publish type: post published: true meta: _thumbnail_id: '79' \---
-
+---
+date: 2022-04-11
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 As a part of my Zbrush learning, I sculpted some funko pop figures of my kids.
 I allowed them to paint them after the fact. With my daughter, the hair was
 the part that was hardest to do in a way that was printable. They came out

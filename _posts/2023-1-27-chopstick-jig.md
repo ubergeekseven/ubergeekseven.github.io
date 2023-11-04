@@ -1,4 +1,13 @@
 ---
+date: 2023-01-27
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
+---
 image:
   path: /img/20230122_113608.jpg
   caption: "Chopstick Jig"
@@ -14,9 +23,6 @@ toc: true
 toc_label: "Contents"
 --- 
 
-
-\--- layout: post title: Chopstick Jig categories: [] tags: [] status: publish
-type: post published: true meta: _thumbnail_id: '81' \---
 
 <img src="/img/20230122_113608.jpg" width="400px" height="300px">
 

@@ -1,8 +1,12 @@
-\--- layout: post title: MQTT Control with Elgato Stream Deck categories: []
-tags: \- mqtt \- home automation \- openahb \- iot \- stramdeck \- stream deck
-\- elgato status: publish type: post published: true meta: _thumbnail_id: '71'
-\---
-
+---
+date: 2020-02-17
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 My son streams his games on YouTube. The setup is complex for a 8 year old to
 get going. He also had issues remembering to turn everything off when
 finished.

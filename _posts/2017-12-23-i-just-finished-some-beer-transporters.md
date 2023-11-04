@@ -1,7 +1,12 @@
-\--- layout: post title: I Just Finished Some Beer Transporters categories: []
-tags: [] status: publish type: post published: true meta: _thumbnail_id: '47'
-\---
-
+---
+date: 2017-12-23
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I wanted to attempt making several presents with my CNC. Just to try out
 replicating and then building several versions of the same thing. I think they
 cam out decent and I learned some things for future projects.

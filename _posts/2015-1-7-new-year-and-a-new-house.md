@@ -1,6 +1,12 @@
-\--- layout: post title: New Year and a New House categories: [] tags: []
-status: publish type: post published: true meta: {} \---
-
+---
+date: 2015-01-07
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 So, even though i have a million projects I would like to be able to dedicate
 myself to, I have real matters to deal with.
 

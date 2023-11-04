@@ -1,6 +1,12 @@
-\--- layout: post title: Brass branding Iron on the CNC categories: [] tags:
-[] status: publish type: post published: true meta: _thumbnail_id: '51' \---
-
+---
+date: 2018-02-14
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I have been wanting to try this for a while. I used a 12x2x.25 inch brass bar
 to carve my logo out of. Using Vectric Aspire, I was able to import my svg
 file and then post the gcode to mach3.

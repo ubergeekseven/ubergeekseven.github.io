@@ -1,6 +1,12 @@
-\--- layout: post title: Yet Another USB Issue categories: \- usb tags: \- hid
-status: publish type: post published: true meta: {} \---
-
+---
+date: 2014-12-20
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 Yesterday I rewrote the HID descriptors to allow for only buttons. the bits
 used are 0x01-0x20 and windows loads the driver fine. But for some reason the
 buttons do not respond at all, and I cant figure that out at all. It must be

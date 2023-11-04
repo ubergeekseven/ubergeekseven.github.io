@@ -1,4 +1,13 @@
 ---
+date: 2014-02-19
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
+---
 image:
   path: /img/20140211_062431.jpg
   caption: "Electronics Case Mold Prep"

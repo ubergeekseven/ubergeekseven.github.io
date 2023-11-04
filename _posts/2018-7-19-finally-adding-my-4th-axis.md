@@ -1,7 +1,12 @@
-\--- layout: post title: Finally Adding My 4th Axis categories: [] tags: \-
-CNC \- CNCRP \- CNCRouterparts \- DIY \- 4th axis \- maker status: publish
-type: post published: true meta: _thumbnail_id: '57' \---
-
+---
+date: 2018-07-19
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I have not had the time to do this myself, but I was watching a [Frank Howarth
 video](https://youtu.be/ygND7TFziF8) on extending his CNC bed by 4 feet and
 posted a comment about possibly adding a 4th axis to that build. he replied

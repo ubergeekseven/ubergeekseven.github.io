@@ -1,6 +1,12 @@
-\--- layout: post title: Kinematic Wave Sign categories: [] tags: [] status:
-publish type: post published: true meta: _thumbnail_id: '55' \---
-
+---
+date: 2019-06-14
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 A friend of mine has 2 float tanks in [Newport
 Kentucky](https://goo.gl/maps/4vnYSc2uBMRMsCvj9). [Think Tank
 Flotation](http://www.thinktankflotation.com/) is the name. It is located

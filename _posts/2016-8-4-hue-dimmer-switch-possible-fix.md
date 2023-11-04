@@ -1,7 +1,12 @@
-\--- layout: post title: Hue Dimmer Switch Possible Fix categories: [] tags:
-\- hue \- philips hue \- openhab \- Home Automation status: publish type: post
-published: true meta: _thumbnail_id: '35' \---
-
+---
+date: 2016-08-04
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 I have been having many problems with the hue lighting system. About 10-15
 lights regularly loose connectivity and show as not communicating. Most of
 them will still respond to group controls, but not to individual controls.

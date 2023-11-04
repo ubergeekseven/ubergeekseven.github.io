@@ -1,6 +1,12 @@
-\--- layout: post title: A novel method of sensing categories: [] tags: []
-status: publish type: post published: true meta: {} \---
-
+---
+date: 2015-01-11
+header:
+  teaser: /img/imgplaceholder
+  overlay_image: /img/imgplaceholder
+  overlay_filter: 0.8
+toc: true
+toc_label: "Contents"
+--- 
 While listening to embedded, a podcast on embedded development, the
 interviewee described how he was capable of sensing the pulses emitted from
 the common water meter. He did a project for the recent hackaday space prize,
