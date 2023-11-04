@@ -3,7 +3,7 @@ date: 2023-02-19
 header:
   teaser: /img/Annotation+2023-02-18+093639.png
   overlay_image: /img/Annotation+2023-02-18+093639.png
-  overlay_filter: 0.5
+  overlay_filter: 0.8
 tagline: "Just a macro setup to give tool change capabilities for mach4"
 toc: true
 toc_label: "Contents"
@@ -82,7 +82,7 @@ the setup portion.
 
 ![](/img/Input.png)
 
-  1. On the left top there are variables to set your probing settings up.
+ ## 1. On the left top there are variables to set your probing settings up.
 
     * Touch Plate Thickness - used to set the thickness of the moveable plate to subtract from the probing of the surface in step 1
 
@@ -96,11 +96,15 @@ the setup portion.
 
     * 2nd Probing pre-move - after moving to the fixed plate the z axis will move this distance before starting the probing. Allows for getting to the plate faster
 
-  2. The plate positions section
+ ## 2. The plate positions section
 
     * you can enter the MTC position manually in machine coordinates or jog to the place you want to change your tool and press Save MTC Pos. It will move up to z0 machine pos, rapid to the MTC location and then move to the z height it is set to.
 
     * Fixed Plate Location in machine coordinates. The same thing works here other than it only moves to xy location because tool heights are different. You can use the 2nd Probing pre-move entry to tune this for your job.
+
+## Final Screenset Layout
+
+![](/img/Annotation+2023-02-18+093639.png)
 
 You will need 2 plates to use this setup. You could use 1 and move it to a
 fixed location after the fact. However, having one that stays where it was
