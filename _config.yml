@@ -41,7 +41,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "github-dark" # "github-light" (default), "github-dark"
+    theme                : "icy-dark" # "github-light" (default), "github-dark" or "icy-dark", "preferred-color-scheme", "photon-dark", "github-light", "dark-blue","github-dark-orange"
     issue_term           : "title" # "pathname" (default)
     label                : "comment" # "comment" (default), "Utterances"
   giscus:
@@ -231,6 +231,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-target-blank
 
 # mimic GitHub Pages with --safe
 whitelist:
