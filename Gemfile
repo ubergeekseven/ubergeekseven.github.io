@@ -15,6 +15,7 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "minimal-mistakes-jekyll"
+gem 'faraday-retry', '~> 2.2'
 gem 'jekyll-target-blank'
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
