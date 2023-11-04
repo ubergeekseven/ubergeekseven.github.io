@@ -1,5 +1,8 @@
 ---
-layout: page
+layout: splash
+classes: 
+    - landing
+    - dark-theme
 title: About
 image: michaeldot.png
 permalink: /about/
