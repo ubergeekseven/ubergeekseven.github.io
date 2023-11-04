@@ -1,8 +1,8 @@
 ---
 date: 2018-07-19
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/4thdone.jpg
+  overlay_image: /img/4thdone.jpg
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"
@@ -26,11 +26,9 @@ start making some insane stuff for tables and whatever else.
 axis.html) build that is amazing looking and seems to be something that CNCRP
 should think about as an addition rather than a custom build.
 
-View fullsize
 
-![From: https://mkmra2.blogspot.com/2016/07/cnc-router-rotary-
-axis.html?showComment=1531996713332#c3445697055729914903](/img/From%3A+https%3A%2F%2Fmkmra2.blogspot.com%2F2016%2F07%2Fcnc-
-router-rotary-axis.html%3FshowComment%3D1531996713332%23c3445697055729914903)
+![](/img/4thdone.jpg)
+
 
 When writing to CNCRP about the stepper motor connection setup, at least with
 my specific model of 4th axis, they wrote back with this info on setting up
@@ -46,10 +44,7 @@ The CRP5056 is similar to the DM556 from Leadshine. The silkscreen on the side
 of the drive shows dip switch settings for current and microstepping, but if
 you want additional information more can be found here:
 
-[http://www.leadshineusa.com/productdetail.aspx?type=products&category=stepper-
-products&producttype=stepper-
-drives&series=DM&model=DM556](http://www.leadshineusa.com/productdetail.aspx?type=products&category=stepper-
-products&producttype=stepper-drives&series=DM&model=DM556)
+![](/img/leadshine114.gif)
 
 Best regards,
 

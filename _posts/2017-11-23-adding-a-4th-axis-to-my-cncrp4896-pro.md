@@ -1,8 +1,8 @@
 ---
 date: 2017-11-23
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/4thAxis.jpg
+  overlay_image: /img/4thAxis.jpg
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"

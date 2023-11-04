@@ -1,8 +1,8 @@
 ---
 date: 2019-01-01
 header:
-  teaser: /img/20181222_175441.jpg
-  overlay_image: /img/20181222_175441.jpg
+  teaser: /img/20181222_193509.jpg
+  overlay_image: /img/20181222_193509.jpg
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"

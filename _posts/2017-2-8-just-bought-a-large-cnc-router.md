@@ -1,8 +1,8 @@
 ---
 date: 2017-02-08
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/CNCBED.jpg
+  overlay_image: /img/CNCBED.jpg
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"
@@ -13,7 +13,7 @@ format CNC router. I purchased mine from
 great with responses to questions and concerns. They even called me after I
 placed my order.
 
-![A render without the legs.](/img/CNCBED)
+![A render without the legs.](/img/CNCBED.jpg)
 
 A render without the legs.
 

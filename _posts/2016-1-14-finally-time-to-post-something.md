@@ -1,15 +1,15 @@
 ---
 date: 2016-01-14
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/trackTogether.png
+  overlay_image: /img/trackTogether.png
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"
 --- 
 View fullsize
 
-![trackTogether](/assets/images/old_blog/trackTogether)
+![trackTogether](/img/trackTogether.png)
 
 I have been working on too many things in the past year to do anything other
 than the work. Finally I had a little time to record a project that I needed

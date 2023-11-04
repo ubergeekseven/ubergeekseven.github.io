@@ -25,7 +25,7 @@ consuming when trying to get a "feel" for the work. Using a waveform and a
 circle, you can extrude the waveform using the circle as a rail. Then adjust
 the z height once you have the basic shape you want.
 
-![Routed and drilled for my light](/img/upload.jpg)
+![Routed and drilled for my light](/img/waterwood.jpg)
 
 Routed and drilled for my light
 
@@ -40,28 +40,26 @@ object without many aberrations. Next was glass. So, I brought out the oxy-
 propane torch and some clear borosilicate to try and make what was in my head.
 Surprisingly, I did on the first try.
 
-![First water drop](/img/upload.jpg)
+![First water drop](/img/firstdrop.jpg)
 
 First water drop
 
 I tested the drop with a neopixel rgb led.
 
-![upload.gif](/img/upload.gif)
+![upload.gif](/img/uploadWaterdrop.gif)
 
 I thought it looked pretty good, but was missing the splash that I really
 wanted. So, I used a piece of borosilicate tubing and flared the end, and made
 drops flowing out from the center.
 
-![upload.jpg](/img/upload.jpg)
+![upload.jpg](/img/watersplash.jpg)
 
 I did not use an annealing oven to cool down, and the bottom was thick enough
 to crack without it. But, the result allowed me to use it in the way I wanted
 to without destroying the whole piece. It removed the bottom completely when I
 picked it up and that allowed me to place it over the drop, resulting in this.
 
-![upload.jpg](/img/upload.jpg)
-
-![upload.jpg](/img/upload.jpg)
+![upload.jpg](/img/dropsplash.jpg)
 
 I then added a n ESP8266 to it and then used openhab with MQTT to change the
 colors. I found some examples online on how to convert rgb from openhab to grb

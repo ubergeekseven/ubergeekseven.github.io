@@ -1,8 +1,8 @@
 ---
 date: 2018-02-14
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/20180207_071416.jpg
+  overlay_image: /img/20180207_071416.jpg
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"

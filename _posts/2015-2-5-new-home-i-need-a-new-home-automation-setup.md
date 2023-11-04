@@ -1,8 +1,8 @@
 ---
 date: 2015-02-05
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/uploadWink.jpeg
+  overlay_image: /img/uploadWink.jpeg
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"
@@ -39,7 +39,7 @@ Most using zigbee or zwave and most claiming compatibility with other products
 in that sphere. I couldn't wait until those devices came out, and today, they
 are here.
 
-![upload.jpeg](/img/upload.jpeg)
+![upload.jpeg](/img/uploadWink.jpeg)
 
 This is not to say that they are perfect. But, i now can use several systems
 depending on what hardware they offer, together. The bad thing this time

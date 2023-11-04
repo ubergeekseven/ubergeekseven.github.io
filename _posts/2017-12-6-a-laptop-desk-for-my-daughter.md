@@ -1,8 +1,8 @@
 ---
 date: 2017-12-06
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/KallilaptopTable.jpg
+  overlay_image: /img/KallilaptopTable.jpg
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"

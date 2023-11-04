@@ -1,8 +1,8 @@
 ---
 date: 2018-11-20
 header:
-  teaser: /img/imgplaceholder
-  overlay_image: /img/imgplaceholder
+  teaser: /img/MACH3Motortuning.PNG
+  overlay_image: /img/MACH3Motortuning.PNG
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"
