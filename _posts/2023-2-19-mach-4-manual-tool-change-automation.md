@@ -12,7 +12,7 @@ toc_label: "Contents"
 
 
 [Mach 4 M6 Macro - Github](https://github.com/ubergeekseven/Mach4-ESS-
-Gathered)
+Gathered){:target="_blank"}
 
 This setup will make tool changes with M6 much faster. It also allows you to
 run 1 file for an entire setup. This way, you can set up your material and not
@@ -40,7 +40,7 @@ I have been wanting this simple capability in my setup ever since I switched
 from Mach 3 to Mach 4. I used a screenset in Mach 3 that gave me this
 capability. There were some issues with it that I was able to resolve. The
 main issue with the Mach 3 2010 screenset from Ger at this
-[page](http://www.thecncwoodworker.com/2010.html) is that it was too minimal.
+[page](http://www.thecncwoodworker.com/2010.html){:target="_blank"} is that it was too minimal.
 You have to memorize what buttons do or look them up when you forgot.
 
 The other issue was that I would have issues every so often when setting up a
@@ -54,7 +54,7 @@ configuration of the profile. Just using Lua commands to pull in data and
 write new data.
 
 I have added the needed files to my
-[Github](https://github.com/ubergeekseven/Mach4-ESS-Gathered) and have
+[Github](https://github.com/ubergeekseven/Mach4-ESS-Gathered){:target="_blank"} and have
 information about how to get it into your setup or use a modified profile to
 add it to the new profile. There is not a straight forward method of only
 adding the needed changes though. If you have ever tried to work with mach 4
