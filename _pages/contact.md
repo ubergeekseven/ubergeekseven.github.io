@@ -5,4 +5,4 @@ image: michaeldot.png
 permalink: /contact/
 ---
 
-<mailto:michael@michaeldot.com>
+# Email me: <michael@michaeldot.com>
