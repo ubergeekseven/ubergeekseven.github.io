@@ -12,11 +12,11 @@ toc_label: "Contents"
 
 This morning, at 4am I woke up and went to start my news for the day. Generally catching up on whatever happened in AI while I was sleeping. I saw a short on youtube where someone was using a service to generate flowcharts using an AI program. I went to the site and within a few seconds I closed it. 
 
-If this is possible by some pay for application that definitely uses GPT to do it, I can do it,right? I then went to create a gpt that would do this for me. Since GPTs cannot actually create the flowchart inside of the interface without creating a dalle image that is way off from the mark, I only enabled docs and code generation. Then described what the purpose was as well as what it should be able to do in the end.
+If this is possible by some pay for application that definitely uses GPT to do it, I can do it right? I then went to create a gpt that would do this for me. Since GPTs cannot actually create the flowchart inside of the interface without creating a dalle image that is way off from the mark, I only enabled docs and code generation. Then described what the purpose was as well as what it should be able to do in the end.
 
-I did not know that there was any kind of syntax I could use to generate flowcharts. I thought about this in the past couple months and with all of the conversations with bing I had, i found a unbelievably convoluted way of doing it and decided to just wait. 
+I did not know that there was any kind of syntax I could use to generate flowcharts. I thought about this in the past couple months and with all of the conversations with bing I had, I found an unbelievably convoluted way of doing it and decided to just wait. 
 
-When I was looking at a couple links when searching how this application was able to output a flowchart from natural language, I stumbled on to something called mermaid. I had no idea this existed. Looking into it, it is simple. Then I used chat.openai.com to see if it knew what it was and if it could output the syntax correctly. It said it did so, I wrote up a handful of steps in an application and asked it to generate mermaid markdown for it. this is what it generated
+When I was looking at a couple links when searching how this application was able to output a flowchart from natural language, I stumbled on to something called mermaid. I had no idea this existed. Looking into it, it is simple. Then I used chat.openai.com to see if it knew what it was and if it could output the syntax correctly. It said it did, then I wrote up a handful of steps in an application and asked it to generate mermaid markdown for it. This is what it generated
 
 ```
 graph TD
@@ -39,7 +39,7 @@ after_footer_scripts:
   - assets/js/mermaid.js
 ```
 
-#### Then add the contents of mermaid.js to assets/js/mermmaid.js
+#### Then add the contents of mermaid.js to assets/js/mermaid.js
 
 ```
 $(document).ready(function () {
