@@ -155,11 +155,11 @@ I asked FlowMaid to generate a complex chart with all of the shapes available in
 graph TD
     A(("Start")) --> B["Yo"]
     B --> C{"Decision one"}
-    C -->|"Yes"| DA("Rounded Rectangle")
-    C -->|"No"| DB[/"Trapezoid"\]
+    C -->DA("Rounded Rectangle")
+    C -->DB[/"Trapezoid"\]
     DA --> E{{Decision two}}
-    E -->|"Option one"| FA[\"Parallelogram"\]
-    E -->|"Option two"| FB[\"Inverse Trapezoid"/]
+    E -->FA[\"Parallelogram"\]
+    E -->FB[\"Inverse Trapezoid"/]
     DB --> G[["Subprocess"]]
     G --> H{"Final Decision"}
     H --> I(["End"])
