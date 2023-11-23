@@ -157,7 +157,7 @@ I can imagine working well in multiple situations. When I create a video or docu
 
 ## The Power of Prompting
 I always seemed to be able to find information on the internet in the past. I just had the google-fu. When starting with LLMs it was just like early days of search. I think google-fu is just learning how to get what you want with the least output. Actually, that is my mantra in life. 
-The limitations of current GPTs is obvious if you have created anything using the oepanai API endpoints. You are limited in capabilities now, I bet that will change in the future. However, the conversation style interactions to generate a GPT is pretty great. When talking with it you will ultimately end up with a concise prompt that you can learn from. This may be a good way of teaching end users how to generate prompts themselves without all fo the back and forth of the conversation. Although, maybe it all disappears with future computing and everything is conversation and interaction in human like ways.
+The limitations of current GPTs is obvious if you have created anything using the openai API endpoints. You are limited in capabilities now, I bet that will change in the future. However, the conversation style interactions to generate a GPT is pretty great. When talking with it you will ultimately end up with a concise prompt that you can learn from. This may be a good way of teaching end users how to generate prompts themselves without all of the back and forth of the conversation. Although, maybe it all disappears with future computing and everything is conversation and interaction in human like ways.
 
 <script type="module">
 	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
