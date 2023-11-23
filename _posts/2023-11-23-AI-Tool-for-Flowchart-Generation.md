@@ -157,12 +157,12 @@ graph TD
     Second Step 
     Third Step`"]
     B --> C{"Decision 1"}
-    C -->|Yes| D1("Rounded Rectangle")
-    C -->|No| D2[/"Trapezoid"\]
-    D1 --> E{{"Decision 2"}}
+    C -->|"Yes"| DA("Rounded Rectangle")
+    C -->|"No"| DB[/"Trapezoid"\]
+    DA --> E{{"Decision 2"}}
     E -->|"Option 1"| F1[\"Parallelogram"\]
     E -->|"Option 2"| F2[\"Inverse Trapezoid"/]
-    D2 --> G[["Subprocess"]]
+    DB --> G[["Subprocess"]]
     G --> H{"Final Decision"}
     H --> I(["End"])
   </code>
