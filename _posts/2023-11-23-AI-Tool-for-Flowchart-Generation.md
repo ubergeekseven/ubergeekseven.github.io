@@ -157,7 +157,7 @@ graph TD
     B --> C{"Decision one"}
     C -->|"Yes"| DA("Rounded Rectangle")
     C -->|"No"| DB[/"Trapezoid"\]
-    DA --> E{{"Decision two"}}
+    DA --> E{{Decision two}}
     E -->|"Option one"| FA[\"Parallelogram"\]
     E -->|"Option two"| FB[\"Inverse Trapezoid"/]
     DB --> G[["Subprocess"]]
