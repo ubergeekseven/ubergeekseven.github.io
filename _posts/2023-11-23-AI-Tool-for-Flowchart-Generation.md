@@ -135,7 +135,6 @@ graph TD
     I --> J["Choose Mermaid..."]
     J --> K["Paste the markdown output from the FlowMaid"]
     K --> L["Click Insert"]
-
   </code>
 </pre>
 
@@ -154,9 +153,7 @@ I asked FlowMaid to generate a complex chart with all of the shapes available in
 <pre>
   <code class="language-mermaid">
 flowchart TD
-    A(("Start")) --> B["'1. First Step
-    2. Second Step
-    3. Third Step'"]
+    A(("Start")) --> B["'1. First Step 2. Second Step 3. Third Step'"]
     B --> C{"Decision 1"}
     C -->|Yes| D1("Rounded Rectangle")
     C -->|No| D2[/"Trapezoid"\]
