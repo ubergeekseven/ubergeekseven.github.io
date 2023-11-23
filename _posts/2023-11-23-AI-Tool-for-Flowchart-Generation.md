@@ -152,9 +152,8 @@ I asked FlowMaid to generate a complex chart with all of the shapes available in
 
 <pre>
   <code class="language-mermaid">
-%%{init: {"flowchart": {"htmlLabels": false}} }%%
 graph TD
-    A(("Start")) --> B["`First Step 
+    A(("Start")) --> B["` First Step 
     Second Step 
     Third Step`"]
     B --> C{"Decision 1"}
