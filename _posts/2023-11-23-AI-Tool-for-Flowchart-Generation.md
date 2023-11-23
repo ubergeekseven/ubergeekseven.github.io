@@ -155,8 +155,8 @@ I asked FlowMaid to generate a complex chart with all of the shapes available in
   <code class="language-mermaid">
 flowchart TD
     A(("Start")) --> B["'1. First Step
-      2. Second Step
-      3. Third Step'"]
+    2. Second Step
+    3. Third Step'"]
     B --> C{"Decision 1"}
     C -->|Yes| D1("Rounded Rectangle")
     C -->|No| D2[/"Trapezoid"\]
