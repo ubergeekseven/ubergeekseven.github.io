@@ -154,8 +154,6 @@ I asked FlowMaid to generate a complex chart with all of the shapes available in
 <pre>
   <code class="language-mermaid">
 flowchart TD
-    style global fill:#000000, color:#ffffff
-
     A(("Start")) --> B["'1. First Step
       2. Second Step
       3. Third Step'"]
@@ -168,8 +166,6 @@ flowchart TD
     D2 --> G[["Subprocess"]]
     G --> H{"Final Decision"}
     H --> I(["End"])
-
-    classDef default stroke:#ffffff;
   </code>
 </pre>
 
