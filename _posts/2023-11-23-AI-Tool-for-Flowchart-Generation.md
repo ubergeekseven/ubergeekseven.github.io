@@ -156,7 +156,7 @@ I asked FlowMaid to generate a complex chart with all of the shapes available in
 flowchart TD
     style global fill:#000000, color:#ffffff
 
-    A(("Start")) --> B["Process 1"]
+    A(("Start")) --> B["1. First Step<br>2. Second Step<br>3. Third Step"]
     B --> C{"Decision 1"}
     C -->|Yes| D1("Rounded Rectangle")
     C -->|No| D2[/"Trapezoid"\]
@@ -168,6 +168,7 @@ flowchart TD
     H --> I(["End"])
 
     classDef default stroke:#ffffff;
+
 </pre>
 
 
