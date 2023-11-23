@@ -150,39 +150,26 @@ graph TD
 
 I asked FlowMaid to generate a complex chart with all of the shapes available in mermaid. I am not sure if it has all of them but, just to show it is capable of doing this.
 
+
 <pre>
   <code class="language-mermaid">
-graph TD;
-    A["Rectangle: Start Process"] --> B(("Circle: Perform Initial Check"));
-    B -->|Yes| C{"Diamond: Decision Point"};
-    C -->|Option 1| D["Rounded Rectangle: Action 1"];
-    C -->|Option 2| E["Stadium Shape: Action 2"];
-    D --> F["Hexagon: Special Task"];
-    E --> G["Parallelogram: Data Processing"];
-    F --> H["Rhombus: Mid-Process Check"];
-    G --> H;
-    H -->|Pass| I["Asymmetric Shape: Pass Outcome"];
-    H -->|Fail| J["Cylinder: Fail Handling"];
-    I --> K[["Subroutine Rectangle: Sub Process"]];
-    J --> L[/Trapezoid: Escalation Process/];
-    K --> M["Circle: Merge Point"] --> N["Rectangle: End Process"];
-    L --> N;
-    style A fill:#f9f,stroke:#333,stroke-width:2px;
-    style B fill:#cff,stroke:#f66,stroke-width:2px,dashed;
-    style C fill:#fcf,stroke:#333;
-    style D fill:#ff9,stroke:#333;
-    style E fill:#9f9,stroke:#333;
-    style F fill:#f99,stroke:#333;
-    style G fill:#9ff,stroke:#333;
-    style H fill:#99f,stroke:#333;
-    style I fill:#f9f,stroke:#333;
-    style J fill:#cfc,stroke:#333;
-    style K fill:#fc9,stroke:#333;
-    style L fill:#ccf,stroke:#333;
-    style M fill:#ffc,stroke:#333;
-    style N fill:#c9f,stroke:#333,stroke-width:2px,dashed;
-  </code>
+flowchart TD
+    style global fill:#000000, color:#ffffff
+
+    A(("Start")) --> B["Process 1"]
+    B --> C{"Decision 1"}
+    C -->|Yes| D1("Rounded Rectangle")
+    C -->|No| D2[/"Trapezoid"\]
+    D1 --> E{{"Decision 2"}}
+    E -->|Option 1| F1[\"Parallelogram"\]
+    E -->|Option 2| F2[\"Inverse Trapezoid"/]
+    D2 --> G[["Subprocess"]]
+    G --> H{"Final Decision"}
+    H --> I(["End"])
+
+    classDef default stroke:#ffffff;
 </pre>
+
 
  With Draw.io you can always go in and modify the base output. It should speed up generating flowcharts. Especially if using a meeting and someone is typing in the notes or drawing on screen, whiteboard, paper. Then take the picture and upload it and ask to generate the flowchart from the image. Group work and generating ideas on the fly helps in complex situations. Redoing the work is not fun. If you can take the images and generate the clean output without the work, it can make life slightly easier. 
 
