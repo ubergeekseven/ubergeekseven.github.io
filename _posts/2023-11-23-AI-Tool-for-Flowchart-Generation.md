@@ -31,22 +31,19 @@ graph TD
     H --> I[User Inputs Information]
 ```
 
-Github.io and jekyll can use javascript within the markdown. You cannot use the plugin because it is not whitelisted on their build server. You can get it to render it out by including this in your markdown to import the needed library for JS:
+Github.io and jekyll use backticks to generate the mermaid output now.
+
+````
+
+```mermaid
 
 ```
-<script type="module">
-	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-	mermaid.initialize({
-		startOnLoad: true,
-		theme: 'dark'
-	});
-</script>
-```
+````
 
 #### After this you can render out the actual flowchart using the output from the GPT and a pre tag like this:
 
-```
-<pre class="mermaid">
+````
+```mermaid
 graph TD
     A[User Enters the App] -->|First Time User| B[Name an Assistant]
     A -->|Returning User| C[Update Assistant]
@@ -57,11 +54,11 @@ graph TD
     F --> G[Store the Thread ID with Date as Name in JSON File]
     G --> H[User is Prompted for What to Discuss About the Day]
     H --> I[User Inputs Information]
-</pre>
 ```
+````
 
 #### It should then render like this:
-<pre class="mermaid">
+```mermaid
 graph TD
     A[User Enters the App] -->|First Time User| B[Name an Assistant]
     A -->|Returning User| C[Update Assistant]
@@ -72,7 +69,7 @@ graph TD
     F --> G[Store the Thread ID with Date as Name in JSON File]
     G --> H[User is Prompted for What to Discuss About the Day]
     H --> I[User Inputs Information]
-</pre>
+```
 
 It definitely works. Now, how can I get it into something actually useful besides my website? I know many people use Visio but there are alternatives that are, in my opinion, better. Also, free to use and handle all kinds of custom settings and many export options. I have used https://draw.io for years now. try it if you have not. 
 
@@ -94,8 +91,8 @@ To do this yourself you can go to my GPT called [FlowMaid](https://chat.openai.c
 * Paste the markdown output from the FlowMaid
 * Click "Insert"
 
-<pre class="mermaid">
 
+```mermaid
 graph TD
     A["Go to FlowMaid GPT"] --> B["Type in the steps for your needs"]
     B --> C["Generate the mermaid markdown"]
@@ -109,7 +106,7 @@ graph TD
     J --> K["Paste the markdown output from the FlowMaid"]
     K --> L["Click Insert"]
 
-</pre>
+```
 
 #### Link to the online render
 [Draw.io Link](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=GPT-Test.drawio#R1Zpbj9o4GIZ%2FDeJqkc%2BOL8u0w%2FZi1EpTdbe9yxAXokliZBwO%2B%2BvXJgfImoyyKnWKxClf7CR%2BH%2Fs7WEzwQ35Y6HizflKJzCYIJIcJfj9BCDKEJu4FkmNlEVRUhpVOk7rR2fCc%2FiNrI6itZZrIbaehUSoz6aZrXKqikEvTscVaq3232Q%2BVde%2B6iVfSMzwv48y3%2FpUmZl1ZIwrO9j9lulo3d4agPpPHTePasF3HidpfmPCHCX7QSpnqV354kJkTr9Gl6vfYc7Z9MC0LM6TD%2FOviO%2Fl0XOxz%2FHXOHz9%2B3x2SPwSuLrOLs7Ie8UKdNLYfj5naP8W2PwKLz1%2FqUZhjI81%2BnRr5vImX7nhv8U%2FwfGu0em2VsmOc19eX2shD75PDVg87kaTKpdFH26TpAFnVpZ5DjaL7MxDIatv6AgYm9Tyo58CqvfJZJvujVur%2FqEY81b4cN9J1K5x4a3lSSto56qacdo%2BuSvdVSJlsx1OS446QEBBPSURYSCWpP%2F9kIXVsZCtkLnVezcI81q92DRXjCch4V8Ao8gWkUUgBmSfgg9q4J35qxQKrWtJkPOGaJdMsYY584QANKRx%2Fw%2FO91%2FF%2BlqoRXR4BHb0wZb7PgzikXpGn17OJtXH3Ojm2vYvyalnmbojjCQdERzhCrgQLTkIKJ%2FwVulZq61zbfi31KWyYU4Kgysy5uW28s0Z7NyBnq1n161MhE506%2B1jK4u6MpMiPHRiHnJFtqnWpbJYuX9vIMZ2g%2BdTJdcxfVNYNz3aalvbrJdYjRpOupAxciSaNowwkKeyVdPou2cXFUibTEVc3Rl3FhB9GIBJBFUP9y3v6VKUus9lsTNFg1yVyfiWW0JCxFwK%2F7Pgcby9zvnPyokqzKZ1%2F%2FKFV3jY41yZjyYq6izdifqDBNOzi9cuSdvF%2BLLZ2sGPOQtIt4gTx40frfgLp5Rcfnj7LUu%2Bkuwo8CWMTnnduV8EaClXYNnNZJI3lJVNWbGs6pOZvewxmFEBEKIQcRpzWZ77VF7O66WPTDERARBhhyAHHqDnrmgJ7oFVZJKenAC0MmXgbF%2F9BYcdhi86lfCs3qdehHddKmrcakutwtcxi49KSy9teI3XqaoWKjxcNNiotzNYD2V7%2FZ9j6ddHN2frQevFyjiCjTHDGCQ2HlwzFS%2B8Nr1%2B93R6vB%2B06XiIiim1UJVgAZD%2FC4aVD8bJ7w%2BsXmzfGew1aH16OcYSgbccoiXg4vGwoXn5veP2S%2BOZ4fWh9zhlCQgSmmJAI2dQ4GF4%2BFG90Z3ihX5ffPq%2FyoPWtXgEE4xQD4F7h6EZD6Yp7o%2BtvEdx88XrM%2BhMrjAhqsuswZMVAsvX%2B1D2h9fcyfkFWdUmsN%2BQyFmGGCMBWxYBw2z3FAXR76t3fl66%2F6XL7qOtz602aARWE0wgwWyGHC7vtHsMAwujeCPsbQLdPmz1svb6ZMioYwpQLSkICRoMB43sDHGDHysfW66SBTbAZt2m2e4d00kO3reot0d%2BBsD08%2F9enan7%2BxxT%2B8C8%3D)
@@ -122,7 +119,7 @@ graph TD
 
 I asked FlowMaid to generate a complex chart with all of the shapes available in mermaid. I am not sure if it has all of them but, just to show it is capable of doing this.
 
-<pre class="mermaid">
+```mermaid
 graph TD;
     A["Rectangle: Start Process"] --> B(("Circle: Perform Initial Check"));
     B -->|Yes| C{"Diamond: Decision Point"};
@@ -152,7 +149,7 @@ graph TD;
     style L fill:#ccf,stroke:#333;
     style M fill:#ffc,stroke:#333;
     style N fill:#c9f,stroke:#333,stroke-width:2px,dashed;
-    </pre>
+```
 
  With Draw.io you can always go in and modify the base output. It should speed up generating flowcharts. Especially if using a meeting and someone is typing in the notes or drawing on screen, whiteboard, paper. Then take the picture and upload it and ask to generate the flowchart from the image. Group work and generating ideas on the fly helps in complex situations. Redoing the work is not fun. If you can take the images and generate the clean output without the work, it can make life slightly easier. 
 
