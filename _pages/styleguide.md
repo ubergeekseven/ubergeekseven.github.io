@@ -78,7 +78,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 ***
 
 ### Syntax Highlighter
-
+```
 {% highlight js %}
   $('.top').click(function () {
     $('html, body').stop().animate({ scrollTop: 0 }, 'slow', 'swing');
@@ -93,6 +93,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 {% endhighlight %}
 
 ***
+```
 
 ### Images
 
@@ -103,3 +104,20 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 ### Videos
 
 <iframe src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>
+
+### Mermaid Syntax for Flowcharts
+```MERMAID
+graph TD
+    A[User Enters the App] -->|First Time User| B[Name an Assistant]
+    A -->|Returning User| C[Update Assistant]
+    B --> D[Ask for Instructions]
+    C --> D
+    D --> E[Store Instructions to Assistant ID in JSON File]
+    E --> F[Start a Thread for Today's Date]
+    F --> G[Store the Thread ID with Date as Name in JSON File]
+    G --> H[User is Prompted for What to Discuss About the Day]
+    H --> I[User Inputs Information]
+```
+
+
+
