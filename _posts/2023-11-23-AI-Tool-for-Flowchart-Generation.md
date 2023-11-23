@@ -8,6 +8,14 @@ toc: true
 toc_label: "Contents"
 --- 
 
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+	mermaid.initialize({
+		startOnLoad: true,
+		theme: 'dark'
+	});
+</script>
+
 # Flowchart Generation GPT
 
 This morning, at 4am I woke up and went to start my news for the day. Generally catching up on whatever happened in AI while I was sleeping. I saw a short on youtube where someone was using a service to generate flowcharts using an AI program. I went to the site and within a few seconds I closed it. 
