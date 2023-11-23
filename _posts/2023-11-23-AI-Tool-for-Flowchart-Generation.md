@@ -154,10 +154,10 @@ I asked FlowMaid to generate a complex chart with all of the shapes available in
   <code class="language-mermaid">
 graph TD
     A(("Start")) --> B["Yo"]
-    B --> C{"Decision 1"}
+    B --> C{"Decision one"}
     C -->|"Yes"| DA("Rounded Rectangle")
     C -->|"No"| DB[/"Trapezoid"\]
-    DA --> E{{"Decision 2"}}
+    DA --> E{{"Decision two"}}
     E -->|"Option one"| FA[\"Parallelogram"\]
     E -->|"Option two"| FB[\"Inverse Trapezoid"/]
     DB --> G[["Subprocess"]]
