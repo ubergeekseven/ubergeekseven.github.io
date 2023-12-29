@@ -10,4 +10,3 @@ toc_label: "Contents"
 
 # My 2024 Coding Goals Focusing on AI
 
-Lorem Ipsum
