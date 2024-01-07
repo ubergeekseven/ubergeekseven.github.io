@@ -54,4 +54,4 @@ Using it with interactions that I have never dealt with like a problem with a pi
 
 My ultimate goal with this system is so open ended. Recording everything throughout my day so that I have a record. That alone is something I do not do. However, I have since November. Keeping a journal that allows me to search all content for information. Summarize entire months and years to get feedback and constructive criticism to advance. A dataset of myself that allows me to see growth and setbacks and improve with actual data. 
 
-I cannot say where this whole thing ends up. I do enjoy this journey though. I really hope that the APIs I currently use do not change much through the year. having to rewrite my system would be a huge burden. I just ahve to go with the flow until I can do everything locally. One day.
+I cannot say where this whole thing ends up. I do enjoy this journey though. I really hope that the APIs I currently use do not change much through the year. having to rewrite my system would be a huge burden. I just have to go with the flow until I can do everything locally. One day.
