@@ -1,3 +1,13 @@
+---
+layout: splash
+classes: 
+    - landing
+    - dark-theme
+title: About
+image: michaeldot.png
+permalink: /captainslog/terms-of-service/
+---
+
 # Terms of Service for Captain's Log Journaling System
 
 **Last Updated:** 10/5/2024
