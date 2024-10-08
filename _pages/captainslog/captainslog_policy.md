@@ -8,7 +8,9 @@ image: michaeldot.png
 permalink: /captainslog/privacy-policy/
 ---
 
-# Privacy Policy for Captain's Log Journaling System
+# Privacy Policy for Captain's Log Journaling System available at captainslog.kalconix.com.
+# This website is hosting the policy for captainslog.kalconix.com specifically. 
+# Access to the main site is only available through secure methods. This policy is availble only through this public site and captainslog.kalconix.com is only available through authentication. One more way  that your data is protected. 
 
 **Last Updated:** 10/5/2024
 
