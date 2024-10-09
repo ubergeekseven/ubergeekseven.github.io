@@ -8,9 +8,12 @@ image: michaeldot.png
 permalink: /captainslog/terms-of-service/
 ---
 
-# Terms of Service for Captain's Log Journaling System available at captainslog.kalconix.com.
+# Terms of Service for Captain's Log Journaling System available at 
+# captainslog.kalconix.com.
 # This website is hosting the terms of service for captainslog.kalconix.com specifically. 
-# Access to the main site is only available through secure methods. This terms of service is availble only through this public site and captainslog.kalconix.com is only available through authentication. One more way that your data is protected. 
+# Access to the main site is only available through secure methods. 
+# This terms of service is available only through this public site and captainslog.kalconix.com is only available through authentication.
+# One more way that your data is protected. 
 
 **Last Updated:** 10/5/2024
 
