@@ -8,8 +8,8 @@ main:
     url: /about/
   - title: "Contact"
     url: /contact/
-  - title: "test 404"
-    url: /test404/
+  # - title: "test 404"
+  #   url: /test404/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
