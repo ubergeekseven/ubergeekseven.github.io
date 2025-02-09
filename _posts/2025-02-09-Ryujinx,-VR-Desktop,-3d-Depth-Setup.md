@@ -1,8 +1,8 @@
 ---
 date: 2025-02-09
 header:
-  teaser: "F:\ubergeekseven.github.io\img\RyujinxDual.png"
-  overlay_image: "F:\ubergeekseven.github.io\img\RyujinxDual.png"
+  teaser: "/img/RyujinxDual.png"
+  overlay_image: "/img/RyujinxDual.png"
   overlay_filter: 0.8
 toc: true
 toc_label: "Contents"
