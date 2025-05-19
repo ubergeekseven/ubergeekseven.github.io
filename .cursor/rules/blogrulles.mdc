@@ -1,0 +1,15 @@
+---
+description: Describes the reason for this workspace
+globs: 
+---
+
+[blog_template.md](mdc:blog_template.md) is the format to use for my blog. It contains the basic layout.
+
+The blog is hosted on github pages, so you must adhere to the rules of githubs jekyll setup.
+
+
+[new_post.py](mdc:new_post.py) will generate a template to fill out information. If you run commands directly and want to create the blog post for me, ask me what to fill out accordingly. I want this to be conversational to be able to generate the content. 
+
+Images are stored in the /img folder and if adding any images supplied by me, ask me to drop them into the folder before moving on to creatingthe post. If not, feel free to generate an image according to the topic of the post. 
+
+This blog will auto update once I upload to github. 
