@@ -1,14 +1,14 @@
 ---
-layout: post
-title: "Fusion 360 Timekeeper: A Simple Time Tracking Solution"
 date: 2025-05-19
 categories: [Fusion 360, Add-ins, Development]
 tags: [fusion360, timetracking, productivity, development]
 description: "Introducing a new Fusion 360 add-in that helps track time spent on design projects - a feature many users have been requesting for years."
 header:
   overlay_image: /img/fusion-timekeeper-header.png
-  overlay_filter: 0.5
+  overlay_filter: 0.8
   teaser: /img/fusion-timekeeper-header.png
+toc: true
+toc_label: "Contents"
 ---
 
 Since 2016, Fusion 360 users have been requesting a built-in time tracking feature. After years of waiting, I decided to take matters into my own hands and create a solution. I'm excited to introduce the Fusion 360 Timekeeper add-in - a simple yet effective tool for tracking time spent on your design projects.
