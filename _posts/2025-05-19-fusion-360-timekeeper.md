@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fusion 360 Timekeeper: A Simple Time Tracking Solution"
-date: 2024-03-21
+date: 2025-05-19
 categories: [Fusion 360, Add-ins, Development]
 tags: [fusion360, timetracking, productivity, development]
 description: "Introducing a new Fusion 360 add-in that helps track time spent on design projects - a feature many users have been requesting for years."
