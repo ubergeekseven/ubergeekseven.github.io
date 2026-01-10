@@ -80,7 +80,7 @@ to plane the jig itself.
 I am adding a link to the design to download and use if wanted. It should be
 self explanatory.
 
-[ Chopstick Fusion Design ](https://a360.co/3Ja8DFp)
+[ Chopstick Fusion Design ](https://github.com/ubergeekseven/ChopstickJig)
 
   
   
